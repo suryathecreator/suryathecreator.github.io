@@ -2,7 +2,9 @@
 import { getConfig } from '@lib/config';
 
 const config = getConfig();
-const year = new Date().getFullYear();
+const now = new Date();
+const year = now.getFullYear();
+const updated = now.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
 ---
 
 <footer class="w-full max-w-[46rem] mx-auto px-5 sm:px-6 pb-10">
@@ -11,6 +13,6 @@ const year = new Date().getFullYear();
     <span>&copy; {year} {config.profile.name}</span>
     <span aria-hidden="true" class="text-[var(--color-muted)]">·</span>
     <span class="annotation">{config.profile.name_cn}</span>
-    <span class="ml-auto annotation">Last updated {year}</span>
+    <span class="ml-auto annotation">Last updated {updated}</span>
   </p>
 </footer>

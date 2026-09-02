@@ -10,6 +10,10 @@
   text: "I am working as an Undergraduate Research Assistant at the [RAIVN lab](https://raivn.cs.washington.edu/)."
   logo: "/images/logos/raivn.png"
   logo_alt: "RAIVN Lab"
+- date: 2026-01
+  text: "Started organizing [DubHacks](https://dubhacks.co/), UW's premier hackathon."
+  logo: "/images/logos/dubhacks.svg"
+  logo_alt: "DubHacks"
 - date: 2025-09
   text: "Started my undergraduate degree at the University of Washington!"
   logo: "/images/logos/uw.png"
