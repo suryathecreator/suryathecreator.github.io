@@ -2,8 +2,10 @@ I am an undergraduate at the University of Washington studying computer science 
 
 My research interests include:
 
-• LLMs and Agents
+    • LLMs and Agents
 
-• Multimodal understanding
+    • Multimodal understanding
 
-• AI safety and governance
+    • AI safety and governance
+
+In my free time, I enjoy to learn languages (learning Chinese for the past 7 years), cook with my mom, go to concerts, or hang out with my friends.
