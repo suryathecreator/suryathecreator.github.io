@@ -8,4 +8,4 @@ My research interests include:
 
     • AI safety and governance
 
-In my free time, I enjoy to learn languages (learning Chinese for the past 7 years), cook with my mom, go to concerts, or hang out with my friends.
+In my free time, I enjoy learning languages (learning Chinese for the past 7 years), cooking with my mom, going to concerts, or hanging out with my friends.
