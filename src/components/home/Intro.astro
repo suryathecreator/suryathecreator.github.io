@@ -9,10 +9,12 @@ const bio = getBio();
 
 // Order and labels of the small links under the intro.
 const linkLabels: Record<string, string> = {
-  email: 'Email',
   github: 'GitHub',
+  linkedin: 'LinkedIn',
+  twitter: 'Twitter',
   google_scholar: 'Scholar',
   cv: 'CV',
+  email: 'Email',
 };
 const links = Object.entries(config.social)
   .filter(([, url]) => url && url.length > 0)
