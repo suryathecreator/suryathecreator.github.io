@@ -17,7 +17,7 @@ profile:
   position: "Undergraduate Researcher"
   affiliation: "Paul G. Allen School of Computer Science & Engineering"
   university: "University of Washington"
-  email: "surya.duraivenkatesh@gmail.com"
+  email: "suryadv@cs.washington.edu"
   avatar: "/images/portrait.jpg"          # replace this file to change the portrait
   # One concise research-interest sentence (filler)
   interests: "I work on machine learning and its mathematical foundations, with an interest in reliable and efficient learning systems."
@@ -29,7 +29,7 @@ social:
   github: "https://github.com/suryathecreator"
   google_scholar: "https://scholar.google.com/citations?user=3krqnWIAAAAJ&hl=en"
   cv: "/files/cv.pdf"
-  email: "surya.duraivenkatesh@gmail.com"
+  email: "suryadv@cs.washington.edu"
 
 # Navigation is intentionally minimal: Home · Personal
 nav:
@@ -46,8 +46,8 @@ sections:
     title: "Latest News"
     title_cn: "近况"
   publications:
-    title: "Selected Publications"
-    title_cn: "论文选录"
+    title: "Publications"
+    title_cn: "论文"
   timeline:
     title: "Education"
     title_cn: "求学"

@@ -1,6 +1,7 @@
 ---
 import { getNews } from '@lib/content';
 import { renderInline } from '@lib/markdown';
+import { withBase } from '@lib/utils';
 
 const years = getNews();
 ---
@@ -16,7 +17,18 @@ const years = getNews();
             <span class="month-label" aria-hidden="true">{month.month}</span>
             <ul class="month-entries">
               {month.entries.map(entry => (
-                <li set:html={renderInline(entry.text)} />
+                <li>
+                  <span set:html={renderInline(entry.text)} />
+                  {entry.logo && (
+                    <img
+                      src={withBase(entry.logo)}
+                      alt={entry.logo_alt ?? ''}
+                      class="news-logo"
+                      height="16"
+                      loading="lazy"
+                    />
+                  )}
+                </li>
               ))}
             </ul>
           </div>
@@ -67,6 +79,13 @@ const years = getNews();
     color: var(--color-text);
   }
   .month-entries li + li { margin-top: 0.18rem; }
+  .news-logo {
+    display: inline-block;
+    height: 1.4em;
+    width: auto;
+    vertical-align: -0.4em;
+    margin-left: 0.45rem;
+  }
   .month-entries :global(a) { border-bottom: 1px solid var(--color-rule); }
 
   @media (max-width: 520px) {

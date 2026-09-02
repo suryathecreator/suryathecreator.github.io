@@ -24,13 +24,13 @@ const links = Object.entries(config.social)
   }));
 ---
 
-<section class="flex gap-6 sm:gap-7 items-start">
+<section class="flex gap-6 sm:gap-8 items-start">
   <img
     src={withBase(config.profile.avatar)}
     alt={config.profile.name}
-    width="112"
-    height="112"
-    class="portrait shrink-0 w-[5.5rem] h-[5.5rem] sm:w-28 sm:h-28 object-cover"
+    width="186"
+    height="186"
+    class="portrait shrink-0 w-[7rem] h-[7rem] min-[420px]:w-[9rem] min-[420px]:h-[9rem] sm:w-[11.6rem] sm:h-[11.6rem] object-cover"
   />
 
   <div class="min-w-0">
@@ -41,12 +41,12 @@ const links = Object.entries(config.social)
       )}
     </h1>
 
-    <p class="meta mt-1.5 leading-snug">
+    <p class="affil mt-2 leading-snug">
       {config.profile.position}<br />
       {config.profile.affiliation}, {config.profile.university}
     </p>
 
-    <ul class="mt-2.5 flex flex-wrap items-baseline gap-x-4 gap-y-1 list-none p-0 m-0">
+    <ul class="links mt-3 flex flex-wrap items-baseline gap-x-5 gap-y-1 list-none p-0 m-0">
       {links.map(l => (
         <li>
           <a
@@ -73,7 +73,7 @@ const links = Object.entries(config.social)
   }
   .name {
     font-family: var(--font-serif);
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 400;
     letter-spacing: 0.005em;
     line-height: 1.2;
@@ -81,7 +81,7 @@ const links = Object.entries(config.social)
   }
   .name-cn {
     font-family: 'Noto Serif SC', var(--font-serif), serif;
-    font-size: 0.875rem;
+    font-size: 1.25rem;
     color: var(--color-muted);
     margin-left: 0.5rem;
     letter-spacing: 0.08em;
@@ -95,7 +95,18 @@ const links = Object.entries(config.social)
     border-left: 1px solid var(--color-rule);
     padding-left: 0.85rem;
   }
-  @media (max-width: 400px) {
-    .name { font-size: 1.3rem; }
+  /* Affiliation and links scale up with the portrait, but stay below the
+     body text in weight so the intro doesn't read as a hero. */
+  .affil {
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    color: var(--color-text-secondary);
+  }
+  .links :global(.tiny-link) { font-size: 0.9375rem; }
+
+  @media (max-width: 520px) {
+    .name { font-size: 1.6rem; overflow-wrap: anywhere; }
+    .name-cn { font-size: 1rem; }
+    .affil { font-size: 0.9375rem; }
   }
 </style>

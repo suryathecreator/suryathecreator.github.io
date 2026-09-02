@@ -4,8 +4,12 @@ import { withBase } from '@lib/utils';
 
 const config = getConfig();
 const nav = getNav();
-const current = Astro.url.pathname.replace(/\/$/, '') || '/';
-const isActive = (p: string) => current === withBase(p).replace(/\/$/, '');
+const norm = (p: string) => p.replace(/\/+$/, '') || '/';
+const current = norm(Astro.url.pathname);
+const isActive = (p: string) => current === norm(withBase(p));
+// The homepage already shows the Chinese name beside the portrait, so it is
+// omitted from the header there and kept on every other page.
+const isHome = isActive('/');
 ---
 
 <!-- Navigation is deliberately near-invisible: a single quiet line. -->
@@ -26,7 +30,7 @@ const isActive = (p: string) => current === withBase(p).replace(/\/$/, '');
         </a>
       </>
     ))}
-    <span class="ml-auto annotation hidden sm:inline">{config.profile.name_cn}</span>
+    {!isHome && <span class="ml-auto annotation hidden sm:inline">{config.profile.name_cn}</span>}
   </nav>
 </header>
 

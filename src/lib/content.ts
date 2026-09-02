@@ -17,7 +17,7 @@ function readYaml<T>(relPath: string, fallback: T): T {
 
 /* ── News ─────────────────────────────────────────────── */
 
-export interface NewsEntry { date: string; text: string; }
+export interface NewsEntry { date: string; text: string; logo?: string; logo_alt?: string; }
 export interface NewsMonth { month: string; entries: NewsEntry[]; }
 export interface NewsYear { year: string; months: NewsMonth[]; }
 

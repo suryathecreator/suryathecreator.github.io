@@ -1,13 +1,16 @@
-# Latest News — newest first. Each entry is one short line.
-# date: YYYY-MM (day is not displayed) or YYYY-MM-DD
-# text: one line. **bold** and [link](url) are supported.
-- date: 2026-09
-  text: "Placeholder — paper submitted to a venue. Replace this line."
+# Latest News — newest first. One short line each.
+#   date: YYYY-MM (the day is never displayed)
+#   text: one line; **bold** and [link](url) are supported
+#   logo / logo_alt: optional small mark shown beside the line
 - date: 2026-08
-  text: "Placeholder — started a summer research project. Replace this line."
-- date: 2026-07
-  text: "Placeholder — gave a short talk at a workshop. Replace this line."
+  text: "Selected as one of 140 campus leads at OpenAI's Student Collective."
+  logo: "/images/logos/openai.png"
+  logo_alt: "OpenAI"
 - date: 2026-03
-  text: "Placeholder — an earlier update. Replace this line."
-- date: 2025-11
-  text: "Placeholder — began undergraduate study at the University of Washington."
+  text: "I am working as an Undergraduate Research Assistant at the [RAIVN lab](https://raivn.cs.washington.edu/)."
+  logo: "/images/logos/raivn.png"
+  logo_alt: "RAIVN Lab"
+- date: 2025-09
+  text: "Started my undergraduate degree at the University of Washington!"
+  logo: "/images/logos/uw.png"
+  logo_alt: "University of Washington"
