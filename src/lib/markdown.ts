@@ -27,6 +27,13 @@ export function renderParagraphs(md: string, className = ''): string {
   return md
     .trim()
     .split(/\n\s*\n/)
-    .map(p => `<p${cls}>${inline(p.replace(/\s*\n\s*/g, ' '))}</p>`)
+    .map(block => {
+      const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
+      if (lines.length && lines.every(l => /^[-*]\s+/.test(l))) {
+        const items = lines.map(l => `<li>${inline(l.replace(/^[-*]\s+/, ''))}</li>`).join('');
+        return `<ul${cls}>${items}</ul>`;
+      }
+      return `<p${cls}>${inline(block.replace(/\s*\n\s*/g, ' '))}</p>`;
+    })
     .join('');
 }

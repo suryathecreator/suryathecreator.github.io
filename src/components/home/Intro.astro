@@ -89,6 +89,13 @@ const links = Object.entries(config.social)
   }
   .bio :global(p) { margin-bottom: 0.7rem; }
   .bio :global(p:last-child) { margin-bottom: 0; }
+  .bio :global(ul) {
+    list-style: disc;
+    margin: 0 0 0.7rem;
+    padding-left: 1.35rem;
+  }
+  .bio :global(ul:last-child) { margin-bottom: 0; }
+  .bio :global(li) { margin-bottom: 0.2rem; }
   .interests {
     font-style: italic;
     color: var(--color-text-secondary);
