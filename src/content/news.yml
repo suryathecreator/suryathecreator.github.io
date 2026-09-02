@@ -1,0 +1,13 @@
+# Latest News — newest first. Each entry is one short line.
+# date: YYYY-MM (day is not displayed) or YYYY-MM-DD
+# text: one line. **bold** and [link](url) are supported.
+- date: 2026-09
+  text: "Placeholder — paper submitted to a venue. Replace this line."
+- date: 2026-08
+  text: "Placeholder — started a summer research project. Replace this line."
+- date: 2026-07
+  text: "Placeholder — gave a short talk at a workshop. Replace this line."
+- date: 2026-03
+  text: "Placeholder — an earlier update. Replace this line."
+- date: 2025-11
+  text: "Placeholder — began undergraduate study at the University of Washington."

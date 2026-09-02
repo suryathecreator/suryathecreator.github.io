@@ -1,0 +1,101 @@
+---
+import { getConfig } from '@lib/config';
+import { getBio } from '@lib/content';
+import { renderParagraphs } from '@lib/markdown';
+import { withBase } from '@lib/utils';
+
+const config = getConfig();
+const bio = getBio();
+
+// Order and labels of the small links under the intro.
+const linkLabels: Record<string, string> = {
+  email: 'Email',
+  github: 'GitHub',
+  google_scholar: 'Scholar',
+  cv: 'CV',
+};
+const links = Object.entries(config.social)
+  .filter(([, url]) => url && url.length > 0)
+  .map(([key, url]) => ({
+    key,
+    label: linkLabels[key] ?? key.replace(/_/g, ' '),
+    href: key === 'email' ? `mailto:${url}` : withBase(url),
+    external: key !== 'email',
+  }));
+---
+
+<section class="flex gap-6 sm:gap-7 items-start">
+  <img
+    src={withBase(config.profile.avatar)}
+    alt={config.profile.name}
+    width="112"
+    height="112"
+    class="portrait shrink-0 w-[5.5rem] h-[5.5rem] sm:w-28 sm:h-28 object-cover"
+  />
+
+  <div class="min-w-0">
+    <h1 class="name">
+      {config.profile.name}
+      {config.profile.name_cn && (
+        <span class="name-cn" aria-label="Chinese name">{config.profile.name_cn}</span>
+      )}
+    </h1>
+
+    <p class="meta mt-1.5 leading-snug">
+      {config.profile.position}<br />
+      {config.profile.affiliation}, {config.profile.university}
+    </p>
+
+    <ul class="mt-2.5 flex flex-wrap items-baseline gap-x-4 gap-y-1 list-none p-0 m-0">
+      {links.map(l => (
+        <li>
+          <a
+            href={l.href}
+            class="tiny-link"
+            target={l.external ? '_blank' : undefined}
+            rel={l.external ? 'noopener noreferrer' : undefined}
+          >{l.label}</a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<div class="mt-5 bio" set:html={renderParagraphs(bio)} />
+
+<p class="mt-3 interests">{config.profile.interests}</p>
+
+<style>
+  .portrait {
+    border: 1px solid var(--color-rule);
+    padding: 3px;
+    background: var(--color-card-bg);
+  }
+  .name {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+    line-height: 1.2;
+    color: var(--color-text);
+  }
+  .name-cn {
+    font-family: 'Noto Serif SC', var(--font-serif), serif;
+    font-size: 0.875rem;
+    color: var(--color-muted);
+    margin-left: 0.5rem;
+    letter-spacing: 0.08em;
+    vertical-align: 0.08em;
+  }
+  .bio :global(p) { margin-bottom: 0.7rem; }
+  .bio :global(p:last-child) { margin-bottom: 0; }
+  .interests {
+    font-style: italic;
+    color: var(--color-text-secondary);
+    border-left: 1px solid var(--color-rule);
+    padding-left: 0.85rem;
+  }
+  @media (max-width: 400px) {
+    .name { font-size: 1.3rem; }
+  }
+</style>

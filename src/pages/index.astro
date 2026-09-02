@@ -1,30 +1,43 @@
 ---
 import BaseLayout from '@components/layout/BaseLayout.astro';
-import Hero from '@components/home/Hero.astro';
-import SelectedPapers from '@components/home/SelectedPapers.astro';
-import NewsWidget from '@components/home/NewsWidget.astro';
-import { getConfig } from '@lib/config';
-import fs from 'node:fs';
-import path from 'node:path';
+import SectionHead from '@components/ui/SectionHead.astro';
+import Intro from '@components/home/Intro.astro';
+import NewsTimeline from '@components/home/NewsTimeline.astro';
+import Publications from '@components/home/Publications.astro';
+import AcademicTimeline from '@components/home/AcademicTimeline.astro';
+import { getSection } from '@lib/config';
+import { getNews, getPublications, getTimeline } from '@lib/content';
 
-const config = getConfig();
-
-// Check if there are actual news items to show
-let hasNews = false;
-try {
-  const newsDir = path.resolve(process.cwd(), 'src/content/news');
-  const files = fs.readdirSync(newsDir).filter(f => f.endsWith('.md'));
-  hasNews = files.length > 0;
-} catch {}
-
-const gridCols = hasNews ? 'lg:grid-cols-2' : '';
+const news = getNews();
+const pubs = getPublications();
+const timeline = getTimeline();
 ---
 
 <BaseLayout>
-  <Hero />
+  <Intro />
 
-  <div class={`mt-8 grid grid-cols-1 ${gridCols} gap-12`}>
-    <SelectedPapers />
-    {hasNews && <NewsWidget />}
-  </div>
+  {news.length > 0 && (
+    <section class="section animate-on-scroll">
+      <SectionHead {...getSection('news')} />
+      <NewsTimeline />
+    </section>
+  )}
+
+  {pubs.length > 0 && (
+    <section class="section animate-on-scroll">
+      <SectionHead {...getSection('publications')} />
+      <Publications />
+    </section>
+  )}
+
+  {timeline.length > 0 && (
+    <section class="section animate-on-scroll">
+      <SectionHead {...getSection('timeline')} />
+      <AcademicTimeline />
+    </section>
+  )}
 </BaseLayout>
+
+<style>
+  .section { margin-top: var(--section-gap); }
+</style>

@@ -1,76 +1,60 @@
-# Lumina — Site Configuration
-# Edit this file to configure your site. Toggle pages, set info, customize theme.
+# ─────────────────────────────────────────────────────────────
+# Personal research homepage — all identity content lives here.
+# Edit this file to change your name, portrait, affiliation,
+# research interests, and links.
+# ─────────────────────────────────────────────────────────────
 
 site:
-  title: "Richard D. Sanchez"
-  description: "Assistant Professor of Computer Science"
-  url: "https://username.github.io"
+  title: "Surya Duraivenkatesh"
+  description: "Personal research homepage of Surya Duraivenkatesh."
+  url: "https://suryathecreator.github.io"
   language: "en"
 
 profile:
-  name: "Richard Daniel Sanchez"
-  position: "Assistant Professor"
-  affiliation: "Department of Computer Science"
-  university: "Greendale University"
-  email: "r.sanchez@greendale.edu"
-  avatar: "/images/avatar.svg"
-  bio: "I am an Assistant Professor of Computer Science at Greendale University. My research focuses on machine learning, natural language processing, and AI for social good."
-  bio_short: "Researching ML, NLP, and AI for social good."
+  name: "Surya Duraivenkatesh"
+  name_cn: "杜苏亚"                      # shown as a small annotation under the name
+  # Affiliation lines (filler — replace with your own)
+  position: "Undergraduate Researcher"
+  affiliation: "Paul G. Allen School of Computer Science & Engineering"
+  university: "University of Washington"
+  email: "surya.duraivenkatesh@gmail.com"
+  avatar: "/images/portrait.jpg"          # replace this file to change the portrait
+  # One concise research-interest sentence (filler)
+  interests: "I work on machine learning and its mathematical foundations, with an interest in reliable and efficient learning systems."
+
+# Short bio shown under the intro. Plain paragraphs; **bold** and [links](url) work.
+# Longer prose lives in src/content/about.md
 
 social:
-  google_scholar: "https://scholar.google.com/citations?user=XXXXXXX"
-  github: "https://github.com/username"
-  twitter: "https://twitter.com/username"
-  linkedin: "https://linkedin.com/in/username"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-  semantic_scholar: ""
-  dblp: ""
-  email: "r.sanchez@greendale.edu"
+  github: "https://github.com/suryathecreator"
+  google_scholar: "https://scholar.google.com/citations?user=3krqnWIAAAAJ&hl=en"
+  cv: "/files/cv.pdf"
+  email: "surya.duraivenkatesh@gmail.com"
 
-pages:
-  about: true
-  publications: true
-  cv: true
-  projects: true
-  news: true
-  teaching: true
-  talks: true
-  awards: true
-  team: true
-  positions: true
-  collaborators: true
-  service: true
-  repositories: true
-  blog: true
-  gallery: true
-  books: true
-  media: true
-  travel: true
+# Navigation is intentionally minimal: Home · Personal
+nav:
+  - label: "Home"
+    label_cn: "首页"
+    path: "/"
+  - label: "Personal"
+    label_cn: "杂记"
+    path: "/personal"
 
-theme:
-  cursor_spotlight: false
-  style: "modern"
-  palette: "default"
-  random_theme: false
-  avatars:
-    - "/images/avatar.svg"
+# Section headings on the homepage (English + Chinese annotation)
+sections:
+  news:
+    title: "Latest News"
+    title_cn: "近况"
+  publications:
+    title: "Selected Publications"
+    title_cn: "论文选录"
+  timeline:
+    title: "Education"
+    title_cn: "求学"
 
 publications:
-  author_name: "Richard Daniel Sanchez"
+  author_name: "Surya Duraivenkatesh"
   bibtex_file: "papers.bib"
-  group_by_year: true
-  show_badges: true
 
 analytics:
   google_analytics: ""  # e.g. "G-XXXXXXXXXX"
-
-blog:
-  posts_per_page: 10
-  show_reading_time: true
-  show_table_of_contents: true
-  comments:
-    enabled: false
-    repo: ""
-    repo_id: ""
-    category: ""
-    category_id: ""

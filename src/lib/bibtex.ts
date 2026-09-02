@@ -31,8 +31,9 @@ export function parseBibTeX(bibtex: string): Publication[] {
 
     entries.push({
       id, title: cleanTeX(fields.title || ''), authors, year, venue: cleanTeX(venue), venueType,
-      doi: fields.doi, url: fields.url, pdf: fields.pdf, code: fields.code,
-      video: fields.video, slides: fields.slides,
+      venueShort: fields.venue_short ? cleanTeX(fields.venue_short) : undefined,
+      doi: fields.doi, url: fields.url, pdf: fields.pdf || fields.paper, code: fields.code,
+      website: fields.website, video: fields.video, slides: fields.slides,
       abstract: fields.abstract ? cleanTeX(fields.abstract) : undefined,
       selected: fields.selected === 'true' || fields.selected === 'yes',
       preview: fields.preview || undefined,

@@ -1,0 +1,109 @@
+---
+import { getConfig } from '@lib/config';
+import { getPublications } from '@lib/content';
+import type { Publication } from '@lib/types';
+
+const config = getConfig();
+const pubs = getPublications();
+const me = config.publications.author_name;
+
+/** Bold the site owner in the author list. */
+function renderAuthors(authors: string[]): string {
+  const parts = me.trim().split(/\s+/);
+  const first = parts[0] ?? '';
+  const last = parts[parts.length - 1] ?? '';
+  return authors
+    .map(a => {
+      const ap = a.trim().split(/\s+/);
+      const aFirst = ap[0] ?? '';
+      const aLast = ap[ap.length - 1] ?? '';
+      const match = aLast === last && (aFirst === first || (aFirst.length <= 2 && aFirst[0] === first[0]));
+      return match ? `<span class="me">${a}</span>` : a;
+    })
+    .join(', ');
+}
+
+function pubLinks(p: Publication) {
+  return [
+    { label: 'paper', href: p.pdf || p.url },
+    { label: 'code', href: p.code },
+    { label: 'project', href: p.website },
+  ].filter(l => l.href);
+}
+---
+
+<ol class="pubs">
+  {pubs.map(pub => (
+    <li class="pub">
+      <h3 class="pub-title">
+        {pub.pdf || pub.url
+          ? <a href={pub.pdf || pub.url} target="_blank" rel="noopener noreferrer">{pub.title}</a>
+          : pub.title}
+      </h3>
+      <p class="pub-authors meta" set:html={renderAuthors(pub.authors)} />
+      <p class="pub-venue">
+        {pub.venueShort && <span class="venue">{pub.venueShort}</span>}
+        {pub.venueShort && pub.venue && <span class="sep" aria-hidden="true">·</span>}
+        {pub.venue && <span class="venue-full">{pub.venue}</span>}
+        <span class="pub-year">{pub.year}</span>
+        {pubLinks(pub).length > 0 && (
+          <span class="pub-links">
+            {pubLinks(pub).map((l, i) => (
+              <>
+                {i > 0 && <span class="sep" aria-hidden="true">·</span>}
+                <a href={l.href} class="tiny-link" target="_blank" rel="noopener noreferrer">{l.label}</a>
+              </>
+            ))}
+          </span>
+        )}
+      </p>
+    </li>
+  ))}
+</ol>
+
+<style>
+  .pubs { list-style: none; margin: 0; padding: 0; }
+
+  .pub { padding: 0.55rem 0; }
+  .pub + .pub { border-top: 1px solid var(--color-rule); }
+
+  .pub-title {
+    font-family: var(--font-serif);
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-text);
+    margin: 0;
+  }
+  .pub-title :global(a) { color: inherit; }
+  .pub-title :global(a:hover) { color: var(--color-accent); text-decoration: none; }
+
+  .pub-authors { margin: 0.15rem 0 0; }
+  .pub-authors :global(.me) { color: var(--color-text); font-weight: 600; }
+
+  .pub-venue {
+    margin: 0.15rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.4rem;
+    line-height: 1.4;
+  }
+  .pub-year {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    color: var(--color-muted);
+  }
+
+  .pub-links {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.45rem;
+    margin-left: 0.35rem;
+    padding-left: 0.65rem;
+    border-left: 1px solid var(--color-rule);
+  }
+
+  .sep { color: var(--color-muted); font-size: 0.75rem; }
+</style>

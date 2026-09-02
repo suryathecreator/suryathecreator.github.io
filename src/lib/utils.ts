@@ -30,3 +30,10 @@ export function sortByDate<T extends { date: Date }>(items: T[], order: 'asc' | 
     return order === 'desc' ? -diff : diff;
   });
 }
+
+/** Prefix a site-root path with the configured Astro base (GitHub Pages safe). */
+export function withBase(p: string): string {
+  if (!p || /^(https?:)?\/\//.test(p) || p.startsWith('mailto:')) return p;
+  const base = import.meta.env.BASE_URL || '/';
+  return `${base}/${p}`.replace(/\/{2,}/g, '/');
+}

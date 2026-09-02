@@ -1,0 +1,83 @@
+---
+import { getNews } from '@lib/content';
+import { renderInline } from '@lib/markdown';
+
+const years = getNews();
+---
+
+<div class="news">
+  {years.map(year => (
+    <div class="news-year">
+      <div class="year-label">{year.year}</div>
+      <div class="relative pl-[4.6rem]">
+        <span class="news-rule" aria-hidden="true"></span>
+        {year.months.map(month => (
+          <div class="month-row">
+            <span class="month-label" aria-hidden="true">{month.month}</span>
+            <ul class="month-entries">
+              {month.entries.map(entry => (
+                <li set:html={renderInline(entry.text)} />
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  ))}
+</div>
+
+<style>
+  .news-year + .news-year { margin-top: 0.9rem; }
+
+  .year-label {
+    font-family: var(--font-serif);
+    font-size: 0.8125rem;
+    letter-spacing: 0.14em;
+    color: var(--color-muted);
+    margin-bottom: 0.3rem;
+  }
+
+  /* The vertical rule sits at the left edge of the padded column. */
+  .relative { position: relative; }
+
+  .month-row {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    gap: 0.85rem;
+    padding: 0.22rem 0;
+  }
+
+  .month-label {
+    position: absolute;
+    left: -4.6rem;
+    width: 3.2rem;
+    text-align: right;
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    color: var(--color-muted);
+  }
+
+  .month-entries { list-style: none; margin: 0; padding: 0; flex: 1; min-width: 0; }
+  .month-entries li {
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: var(--color-text);
+  }
+  .month-entries li + li { margin-top: 0.18rem; }
+  .month-entries :global(a) { border-bottom: 1px solid var(--color-rule); }
+
+  @media (max-width: 520px) {
+    .news .relative { padding-left: 0.9rem; }
+    .month-row { display: block; padding: 0.3rem 0; }
+    .month-label {
+      position: static;
+      display: block;
+      width: auto;
+      text-align: left;
+      margin-bottom: 0.1rem;
+    }
+  }
+</style>

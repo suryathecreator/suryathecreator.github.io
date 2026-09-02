@@ -1,0 +1,10 @@
+---
+/** Section title: serif small-caps + Chinese annotation + hairline rule. */
+interface Props { title: string; title_cn?: string; }
+const { title, title_cn } = Astro.props;
+---
+<div class="section-head">
+  <h2 class="section-head__title">{title}</h2>
+  {title_cn && <span class="section-head__cn" aria-hidden="true">{title_cn}</span>}
+  <span class="section-head__rule" aria-hidden="true"></span>
+</div>

@@ -1,0 +1,172 @@
+/* ── Ink layer ─────────────────────────────────────────────────
+   A thin editorial pass on top of the Classic theme: warmer paper
+   tones, hairline rules, serif accents, and small annotations.
+   Nothing decorative for its own sake.
+   ───────────────────────────────────────────────────────────── */
+
+:root {
+  /* Warm paper + ink, slightly softer than stock Classic */
+  --color-bg: #FBFAF6;
+  --color-text: #201E1A;
+  --color-text-secondary: #6B655C;
+  --color-muted: #948C80;
+  --color-accent: #7B2D26;
+  --color-accent-hover: #601F19;
+  --color-border: #E3DED3;
+  --color-rule: #DCD6C9;
+  --color-card-bg: #FBFAF6;
+
+  --font-serif: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+  --font-text: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --font-heading: var(--font-serif);
+  --font-body: var(--font-text);
+
+  /* Spacing rhythm (multiples of Lumina's 8px unit) */
+  --section-gap: 2.75rem;
+}
+
+body {
+  font-family: var(--font-text);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  letter-spacing: 0.002em;
+}
+
+/* ── Hairline rule ─────────────────────────────────────── */
+.hairline { height: 1px; background: var(--color-rule); border: 0; }
+
+/* ── Section heading: serif small-caps + Chinese annotation ── */
+.section-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+.section-head__title {
+  font-family: var(--font-serif);
+  font-size: 0.9375rem;
+  font-weight: 400;
+  font-variant: small-caps;
+  letter-spacing: 0.09em;
+  color: var(--color-text);
+  white-space: nowrap;
+}
+.section-head__cn {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  letter-spacing: 0.22em;
+  color: var(--color-muted);
+  white-space: nowrap;
+}
+.section-head__rule {
+  flex: 1;
+  height: 1px;
+  background: var(--color-rule);
+  transform: translateY(-0.2em);
+}
+
+/* Small annotation text (the "ink" marginalia) */
+.annotation {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  letter-spacing: 0.18em;
+  color: var(--color-muted);
+}
+
+/* ── Meta / bibliographic lines ────────────────────────── */
+.meta {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+.meta--tight { font-size: 0.78125rem; }
+
+/* ── Understated inline links (paper · code · site) ────── */
+.tiny-link {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  color: var(--color-text-secondary);
+  border-bottom: 1px solid var(--color-rule);
+  transition: color 150ms ease, border-color 150ms ease;
+}
+.tiny-link:hover {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+  text-decoration: none;
+}
+
+/* ── Venue label ───────────────────────────────────────── */
+.venue {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+}
+.venue-full {
+  font-family: var(--font-text);
+  font-style: italic;
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+}
+
+/* ── News timeline rule ────────────────────────────────── */
+.news-rule {
+  position: absolute;
+  left: 0;
+  top: 0.35rem;
+  bottom: 0.35rem;
+  width: 1px;
+  background: var(--color-rule);
+}
+
+/* ── Academic timeline bar ─────────────────────────────── */
+.tl-bar {
+  position: relative;
+  height: 1px;
+  background: var(--color-rule);
+  flex: 1;
+}
+.tl-bar::before,
+.tl-bar::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--color-rule);
+}
+.tl-bar::before { left: 0; }
+.tl-bar::after { right: 0; }
+
+/* ── Links ─────────────────────────────────────────────── */
+a { color: var(--color-accent); }
+a:hover { color: var(--color-accent-hover); }
+
+/* ── Restrained entrance animation ─────────────────────── */
+@supports (animation-timeline: view()) {
+  .animate-on-scroll {
+    animation: inkFade 0.5s ease-out both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 22%;
+  }
+  @keyframes inkFade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-on-scroll { animation: none !important; opacity: 1; transform: none; }
+}
+
+/* Inline code, used sparingly in prose */
+code {
+  font-family: 'Inter', ui-monospace, monospace;
+  font-size: 0.85em;
+  color: var(--color-text-secondary);
+  background: rgba(0, 0, 0, 0.035);
+  padding: 0.05em 0.3em;
+}

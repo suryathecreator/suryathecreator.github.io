@@ -1,3 +1,9 @@
+> **This repo is now a personal research homepage** built on Lumina.
+> See [EDITING.md](EDITING.md) for exactly which files hold your content.
+> The template docs below (`PRODUCT_SPEC.md`, `CONTENT_GUIDE.md`, `docs/`) describe upstream Lumina and are no longer accurate for this site.
+
+---
+
 # Lumina — Academic Website Template
 
 **Build a stunning academic website in under 5 minutes.** No frontend experience needed.

@@ -1,0 +1,70 @@
+---
+/**
+ * Reusable academic timeline. Reads src/content/timeline.yml by default,
+ * or accepts an explicit `entries` array so it can also render research
+ * positions, fellowships, etc.
+ */
+import { getTimeline, type TimelineEntry } from '@lib/content';
+import { withBase } from '@lib/utils';
+
+interface Props { entries?: TimelineEntry[]; }
+const entries = Astro.props.entries ?? getTimeline();
+---
+
+<ol class="tl">
+  {entries.map(e => (
+    <li class="tl-row">
+      <div class="tl-span" aria-label={`${e.start} to ${e.end}`}>
+        <span class="tl-yr">{e.start}</span>
+        <span class="tl-bar" aria-hidden="true"></span>
+        <span class="tl-yr">{e.end}</span>
+      </div>
+      <div class="tl-body">
+        {e.logo && (
+          <img src={withBase(e.logo)} alt={e.logo_alt ?? ''} height="30" class="tl-logo" />
+        )}
+        <div class="min-w-0">
+          <p class="tl-inst">{e.institution}</p>
+          {e.detail && <p class="tl-detail">{e.detail}</p>}
+          {e.note && <p class="annotation mt-0.5">{e.note}</p>}
+        </div>
+      </div>
+    </li>
+  ))}
+</ol>
+
+<style>
+  .tl { list-style: none; margin: 0; padding: 0; }
+  .tl-row { padding: 0.35rem 0; }
+  .tl-row + .tl-row { margin-top: 0.9rem; }
+
+  .tl-span {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    max-width: 20rem;
+  }
+  .tl-yr {
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    letter-spacing: 0.1em;
+    color: var(--color-muted);
+  }
+
+  .tl-body { display: flex; align-items: baseline; gap: 0.7rem; margin-top: 0.4rem; }
+  .tl-logo { align-self: flex-start; width: auto; height: 30px; object-fit: contain; }
+
+  .tl-inst {
+    font-family: var(--font-serif);
+    font-size: 0.9375rem;
+    line-height: 1.3;
+    margin: 0;
+    color: var(--color-text);
+  }
+  .tl-detail {
+    font-family: var(--font-sans);
+    font-size: 0.8125rem;
+    color: var(--color-text-secondary);
+    margin: 0.1rem 0 0;
+  }
+</style>

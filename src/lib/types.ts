@@ -4,6 +4,8 @@ export interface Publication {
   authors: string[];
   year: number;
   venue: string;
+  venueShort?: string;
+  website?: string;
   venueType: 'conference' | 'journal' | 'workshop' | 'preprint' | 'thesis' | 'other';
   doi?: string;
   url?: string;
