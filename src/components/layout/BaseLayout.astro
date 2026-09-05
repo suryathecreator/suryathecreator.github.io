@@ -13,8 +13,9 @@ interface Props {
 
 const config = getConfig();
 const { title, description } = Astro.props;
-const pageTitle = title ? `${title} — ${config.site.title}` : config.site.title;
+const pageTitle = title ? `${title} — ${config.profile.name}` : config.site.title;
 const pageDescription = description || config.site.description;
+const canonicalURL = new URL(Astro.url.pathname, config.site.url).href;
 ---
 
 <!DOCTYPE html>
@@ -30,7 +31,11 @@ const pageDescription = description || config.site.description;
   <meta property="og:description" content={pageDescription} />
   <meta property="og:type" content="website" />
   <meta property="og:url" content={Astro.url.href} />
+  <meta property="og:site_name" content={config.profile.name} />
   <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={pageTitle} />
+  <meta name="twitter:description" content={pageDescription} />
+  <link rel="canonical" href={canonicalURL} />
   <link rel="sitemap" href={withBase("/sitemap-index.xml")} />
   <title>{pageTitle}</title>
   <slot name="head" />
@@ -40,8 +45,8 @@ const pageDescription = description || config.site.description;
     "@type": "Person",
     "name": config.profile.name,
     "jobTitle": config.profile.position,
-    "affiliation": { "@type": "Organization", "name": config.profile.university },
-    "url": config.site.url,
+    "affiliation": { "@type": "CollegeOrUniversity", "name": config.profile.university },
+    "url": config.site.url + "/",
     "email": config.profile.email,
   })} />
 
