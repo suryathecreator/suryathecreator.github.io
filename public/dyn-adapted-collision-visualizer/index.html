@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dyn-adapted ground-truth collision viewer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Dyn-adapted · 4–5 objects · ground truth</p>
+        <h1>Collision policy comparison</h1>
+      </div>
+      <div class="header-key" aria-label="Timeline legend">
+        <span><i class="legend-swatch collision"></i>Collision</span>
+        <span><i class="legend-swatch contact"></i>Contact</span>
+        <span><i class="legend-line"></i>Video position</span>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="sidebar-heading">
+          <p class="eyebrow">Random sample · seed 20261001</p>
+          <strong id="sceneCount">24 videos</strong>
+        </div>
+        <p class="sidebar-copy">
+          12 training + 12 evaluation scenes, sampled independently from the original STRIVE splits. Newly rendered ground truth.
+        </p>
+        <label class="split-filter">Split <select id="splitFilter"><option value="all">All 24 scenes</option><option value="train">Training · 12</option><option value="eval">Evaluation · 12</option></select></label>
+        <p class="downloads"><a href="viewer.zip" download>Download viewer + GT</a> · <a href="selection.json">Selection</a></p>
+        <nav id="sceneList" class="scene-list" aria-label="Example scenes"></nav>
+      </aside>
+
+      <main>
+        <section class="scene-heading">
+          <div>
+            <p id="sceneKicker" class="eyebrow">Example 1</p>
+            <h2 id="sceneTitle">Loading viewer data…</h2>
+            <p id="sceneMeta" class="scene-meta"></p>
+          </div>
+          <div id="reasonBadges" class="reason-badges"></div>
+          <p class="downloads"><a id="gtDownload" href="#">Scene GT</a> · <a id="metadataDownload" href="#">Renderer metadata</a> · <a id="eventsDownload" href="#">Raw contacts</a></p>
+        </section>
+
+        <section class="video-card">
+          <div class="media-grid">
+            <figure class="media-pane">
+              <figcaption>
+                <strong>RGB + tracked points</strong>
+                <span>Ground-truth points for all visible objects</span>
+              </figcaption>
+              <div class="video-stage">
+                <video id="video" playsinline loop preload="metadata"></video>
+                <canvas id="objectOverlay" aria-hidden="true"></canvas>
+              </div>
+            </figure>
+            <figure class="media-pane">
+              <figcaption>
+                <strong>Instance segmentation</strong>
+                <span>Same frame and exported object colors</span>
+              </figcaption>
+              <div class="video-stage segmentation-stage">
+                <video id="segmentationVideo" muted playsinline loop preload="metadata"></video>
+              </div>
+            </figure>
+          </div>
+          <div class="object-key">
+            <span class="object-key-label">Objects</span>
+            <div
+              id="objectLegend"
+              class="object-legend"
+              tabindex="0"
+              aria-label="Displayed objects; scroll horizontally for more"
+            ></div>
+            <label
+              class="overlay-toggle"
+              for="showObjectOverlay"
+              title="Pointers appear only for visible, in-frame track points"
+            >
+              <input id="showObjectOverlay" type="checkbox" checked>
+              <span>Show object pointers</span>
+            </label>
+          </div>
+          <div class="transport">
+            <button id="previousFrame" type="button" aria-label="Previous frame">−1 frame</button>
+            <button id="togglePlayback" class="play-button" type="button" aria-label="Play video" aria-pressed="false">
+              <span class="play-icon" aria-hidden="true">▶</span>
+              <span class="play-label">Play</span>
+            </button>
+            <button id="nextFrame" type="button" aria-label="Next frame">+1 frame</button>
+            <output id="frameReadout">Frame 0 / 23</output>
+          </div>
+        </section>
+
+        <section class="timeline-card">
+          <div class="timeline-heading">
+            <div>
+              <p class="eyebrow">Renderer ground truth · five policy views</p>
+              <h2>Interaction timelines</h2>
+            </div>
+            <p id="frameStatus" class="frame-status">Frame 0</p>
+          </div>
+          <p class="timeline-help">
+            Choose the policy rows to compare, click a timeline to seek, or scroll this panel to inspect another pair.
+          </p>
+          <fieldset class="arm-filter-panel">
+            <legend>Show Gantt rows</legend>
+            <div id="armFilters" class="arm-filter-options"></div>
+          </fieldset>
+          <div class="interaction-search">
+            <label for="interactionSearch">Search interactions</label>
+            <input
+              id="interactionSearch"
+              type="search"
+              autocomplete="off"
+              placeholder="Object ID, semantic name, ground, collision, contact…"
+            >
+            <output id="interactionCount" for="interactionSearch"></output>
+          </div>
+          <div id="timelineScroll" class="timeline-scroll" tabindex="0" aria-label="Scrollable interaction timelines">
+            <div id="timelines" class="timelines"></div>
+          </div>
+        </section>
+
+        <section class="policy-grid" aria-label="Policy definitions">
+          <article>
+            <span class="policy-number">01</span>
+            <h3>Current labels</h3>
+            <p id="baselineDefinition"></p>
+          </article>
+          <article>
+            <span class="policy-number">02</span>
+            <h3>Gap close 1</h3>
+            <p id="gapDefinition"></p>
+          </article>
+          <article>
+            <span class="policy-number">03</span>
+            <h3>Anchor expand ±1</h3>
+            <p id="expandDefinition"></p>
+          </article>
+          <article>
+            <span class="policy-number">04</span>
+            <h3>Gap close → expand → relabel</h3>
+            <p id="combinedDefinition"></p>
+          </article>
+          <article>
+            <span class="policy-number">05</span>
+            <h3>Close gaps ≤3 → relabel</h3>
+            <p id="wideGapDefinition"></p>
+          </article>
+        </section>
+
+        <p class="viewer-note">Simulation: 24 frames at 12 fps, shown at 1 fps for inspection. Current = STRIVE ground truth; the other rows are comparison policies. No prediction or evaluation scores. <a href="https://justachetan.github.io/strive/collision-visualizer/">Original viewer</a>.</p>
+        <p id="errorMessage" class="error-message" role="alert"></p>
+      </main>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1633 @@
+{
+  "accepted_attempt": 0,
+  "interactions": [
+    {
+      "begins_at": 0,
+      "ends_at": 23,
+      "id": 0,
+      "inputs": [
+        0,
+        65535
+      ],
+      "outputs": [
+        0,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 0,
+      "ends_at": 23,
+      "id": 5,
+      "inputs": [
+        1,
+        65535
+      ],
+      "outputs": [
+        1,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 5,
+      "ends_at": 5,
+      "id": 6,
+      "inputs": [
+        2,
+        3
+      ],
+      "outputs": [
+        2,
+        3
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 6,
+      "ends_at": 7,
+      "id": 10,
+      "inputs": [
+        3,
+        65535
+      ],
+      "outputs": [
+        3,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 7,
+      "ends_at": 7,
+      "id": 3,
+      "inputs": [
+        1,
+        2
+      ],
+      "outputs": [
+        1,
+        2
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 8,
+      "ends_at": 10,
+      "id": 4,
+      "inputs": [
+        1,
+        2
+      ],
+      "outputs": [
+        1,
+        2
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 9,
+      "ends_at": 9,
+      "id": 11,
+      "inputs": [
+        3,
+        65535
+      ],
+      "outputs": [
+        3,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 10,
+      "ends_at": 10,
+      "id": 7,
+      "inputs": [
+        2,
+        65535
+      ],
+      "outputs": [
+        2,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 10,
+      "ends_at": 23,
+      "id": 9,
+      "inputs": [
+        3,
+        65535
+      ],
+      "outputs": [
+        3,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 11,
+      "ends_at": 23,
+      "id": 8,
+      "inputs": [
+        2,
+        65535
+      ],
+      "outputs": [
+        2,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 12,
+      "ends_at": 12,
+      "id": 1,
+      "inputs": [
+        1,
+        2
+      ],
+      "outputs": [
+        1,
+        2
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 13,
+      "ends_at": 23,
+      "id": 2,
+      "inputs": [
+        1,
+        2
+      ],
+      "outputs": [
+        1,
+        2
+      ],
+      "type": "contact"
+    }
+  ],
+  "original_to_viewer_id": {
+    "0": 3,
+    "1": 2,
+    "2": 1,
+    "3": 0
+  },
+  "raw_contact_episodes": [
+    {
+      "end_frame": 5,
+      "label": "collision",
+      "pair": [
+        0,
+        1
+      ],
+      "start_frame": 5
+    },
+    {
+      "end_frame": 7,
+      "label": "collision",
+      "pair": [
+        0,
+        65535
+      ],
+      "start_frame": 6
+    },
+    {
+      "end_frame": 9,
+      "label": "collision",
+      "pair": [
+        0,
+        65535
+      ],
+      "start_frame": 9
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        0,
+        65535
+      ],
+      "start_frame": 10
+    },
+    {
+      "end_frame": 7,
+      "label": "collision",
+      "pair": [
+        1,
+        2
+      ],
+      "start_frame": 7
+    },
+    {
+      "end_frame": 10,
+      "label": "persistent_contact",
+      "pair": [
+        1,
+        2
+      ],
+      "start_frame": 8
+    },
+    {
+      "end_frame": 12,
+      "label": "collision",
+      "pair": [
+        1,
+        2
+      ],
+      "start_frame": 12
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        1,
+        2
+      ],
+      "start_frame": 13
+    },
+    {
+      "end_frame": 10,
+      "label": "collision",
+      "pair": [
+        1,
+        65535
+      ],
+      "start_frame": 10
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        1,
+        65535
+      ],
+      "start_frame": 11
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        2,
+        65535
+      ],
+      "start_frame": 0
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        3,
+        65535
+      ],
+      "start_frame": 0
+    }
+  ],
+  "scene": {
+    "all_collision_pairs": 4,
+    "all_interaction_pairs": 6,
+    "ground_truth_url": "cases/eval_9068/ground_truth.json",
+    "impact_score": 0,
+    "media_id": "9068",
+    "num_frames": 24,
+    "objects": [
+      {
+        "asset_id": "Epson_DURABrite_Ultra_786_Black_Ink_Cartridge_T786120S",
+        "color": "#5ee2d6",
+        "object_id": 0,
+        "original_id": 3,
+        "semantic_type": "white and blue cardboard ink cartridge box",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.033203125,
+              0.451171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.037109375,
+              0.447265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.025390625,
+              0.447265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.025390625,
+              0.443359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.060546875,
+              0.439453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.021484375,
+              0.439453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.025390625,
+              0.439453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.021484375,
+              0.435546875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.025390625,
+              0.435546875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.025390625,
+              0.431640625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.025390625,
+              0.431640625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.025390625,
+              0.427734375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.025390625,
+              0.427734375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.021484375,
+              0.419921875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.021484375,
+              0.416015625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.009765625,
+              0.404296875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.001953125,
+              0.392578125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.037109375,
+              0.392578125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.025390625,
+              0.404296875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.017578125,
+              0.400390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.017578125,
+              0.400390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.013671875,
+              0.392578125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.013671875,
+              0.388671875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.009765625,
+              0.384765625
+            ],
+            "visible": true
+          }
+        ]
+      },
+      {
+        "asset_id": "Room_Essentials_Salad_Plate_Turquoise",
+        "color": "#ff8a65",
+        "object_id": 1,
+        "original_id": 2,
+        "semantic_type": "turquoise ceramic salad plate",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.197265625,
+              0.513671875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.212890625,
+              0.517578125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.177734375,
+              0.521484375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.181640625,
+              0.521484375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.189453125,
+              0.521484375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.201171875,
+              0.525390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.173828125,
+              0.529296875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.189453125,
+              0.529296875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.189453125,
+              0.533203125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.205078125,
+              0.533203125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.177734375,
+              0.537109375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.185546875,
+              0.541015625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.166015625,
+              0.541015625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.123046875,
+              0.552734375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.087890625,
+              0.564453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.150390625,
+              0.529296875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.119140625,
+              0.568359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.302734375,
+              0.548828125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.294921875,
+              0.556640625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.279296875,
+              0.556640625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.263671875,
+              0.560546875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.251953125,
+              0.564453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.255859375,
+              0.568359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.251953125,
+              0.568359375
+            ],
+            "visible": true
+          }
+        ]
+      },
+      {
+        "asset_id": "Perricoen_MD_No_Concealer_Concealer",
+        "color": "#bd91ff",
+        "object_id": 2,
+        "original_id": 1,
+        "semantic_type": "beige cardboard concealer box",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.509765625,
+              0.158203125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.486328125,
+              0.162109375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.455078125,
+              0.205078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.431640625,
+              0.232421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.408203125,
+              0.267578125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.388671875,
+              0.291015625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.361328125,
+              0.330078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.310546875,
+              0.392578125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.259765625,
+              0.439453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.388671875,
+              0.455078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.271484375,
+              0.427734375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.244140625,
+              0.416015625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.365234375,
+              0.423828125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.298828125,
+              0.412109375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.251953125,
+              0.412109375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.365234375,
+              0.451171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.322265625,
+              0.447265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.294921875,
+              0.447265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.275390625,
+              0.451171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.259765625,
+              0.455078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.244140625,
+              0.458984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.240234375,
+              0.462890625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.216796875,
+              0.470703125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.228515625,
+              0.474609375
+            ],
+            "visible": true
+          }
+        ]
+      },
+      {
+        "asset_id": "LEGO_5887_Dino_Defense_HQ",
+        "color": "#ffd166",
+        "object_id": 3,
+        "original_id": 0,
+        "semantic_type": "yellow and grey plastic dinosaur defense base",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.951171875,
+              0.181640625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.884765625,
+              0.205078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.822265625,
+              0.232421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.771484375,
+              0.267578125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.708984375,
+              0.318359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.658203125,
+              0.369140625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.607421875,
+              0.373046875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.568359375,
+              0.357421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.501953125,
+              0.412109375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.447265625,
+              0.380859375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.244140625,
+              0.326171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.341796875,
+              0.326171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.357421875,
+              0.494140625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.216796875,
+              0.322265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.255859375,
+              0.564453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.259765625,
+              0.541015625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.255859375,
+              0.541015625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.087890625,
+              0.525390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.072265625,
+              0.533203125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.185546875,
+              0.576171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.177734375,
+              0.591796875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.169921875,
+              0.615234375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.158203125,
+              0.638671875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.146484375,
+              0.669921875
+            ],
+            "visible": true
+          }
+        ]
+      }
+    ],
+    "pairs": [
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 0 \u00b7 white and blue cardboard ink cartridge box \u2194 Ground",
+        "pair": [
+          0,
+          65535
+        ],
+        "pair_key": "0-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 0,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 6,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 10,
+              "type": "contact"
+            },
+            {
+              "begins_at": 11,
+              "ends_at": 13,
+              "type": "collision"
+            },
+            {
+              "begins_at": 14,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 7,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 8,
+              "ends_at": 10,
+              "type": "contact"
+            },
+            {
+              "begins_at": 12,
+              "ends_at": 12,
+              "type": "collision"
+            },
+            {
+              "begins_at": 13,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 8,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 6,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 6,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 1 \u00b7 turquoise ceramic salad plate \u2194 Object 2 \u00b7 beige cardboard concealer box",
+        "pair": [
+          1,
+          2
+        ],
+        "pair_key": "1-2",
+        "pair_type": "object_object",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 2,
+          "combined_relabelled_anchors": 1,
+          "gap_close_le_3_merged_gaps": 1,
+          "gap_close_merges": 1
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 1 \u00b7 turquoise ceramic salad plate \u2194 Ground",
+        "pair": [
+          1,
+          65535
+        ],
+        "pair_key": "1-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 0,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 4,
+              "ends_at": 6,
+              "type": "collision"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 5,
+              "ends_at": 5,
+              "type": "collision"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 5,
+              "ends_at": 5,
+              "type": "collision"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 4,
+              "ends_at": 6,
+              "type": "collision"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 5,
+              "ends_at": 5,
+              "type": "collision"
+            }
+          ]
+        },
+        "label": "Object 2 \u00b7 beige cardboard concealer box \u2194 Object 3 \u00b7 yellow and grey plastic dinosaur defense base",
+        "pair": [
+          2,
+          3
+        ],
+        "pair_key": "2-3",
+        "pair_type": "object_object",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 1,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 9,
+              "ends_at": 11,
+              "type": "collision"
+            },
+            {
+              "begins_at": 12,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 10,
+              "ends_at": 10,
+              "type": "collision"
+            },
+            {
+              "begins_at": 11,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 10,
+              "ends_at": 10,
+              "type": "collision"
+            },
+            {
+              "begins_at": 11,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 9,
+              "ends_at": 11,
+              "type": "collision"
+            },
+            {
+              "begins_at": 12,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 10,
+              "ends_at": 10,
+              "type": "collision"
+            },
+            {
+              "begins_at": 11,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 2 \u00b7 beige cardboard concealer box \u2194 Ground",
+        "pair": [
+          2,
+          65535
+        ],
+        "pair_key": "2-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 1,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 5,
+              "ends_at": 10,
+              "type": "collision"
+            },
+            {
+              "begins_at": 11,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 6,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 9,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 6,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 8,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 5,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 8,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 5,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 8,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 3 \u00b7 yellow and grey plastic dinosaur defense base \u2194 Ground",
+        "pair": [
+          3,
+          65535
+        ],
+        "pair_key": "3-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 1,
+          "baseline_collision_anchors": 2,
+          "combined_relabelled_anchors": 1,
+          "gap_close_le_3_merged_gaps": 1,
+          "gap_close_merges": 1
+        }
+      }
+    ],
+    "raw_events_url": "cases/eval_9068/events.json",
+    "raw_metadata_url": "cases/eval_9068/metadata.json",
+    "sample_id": "dyn_adapted:eval:9068",
+    "segmentation_url": "cases/eval_9068/segmentation.mp4",
+    "selection_counts": {},
+    "selection_index": 24,
+    "selection_reasons": [
+      "eval",
+      "random_sample"
+    ],
+    "source_example_id": "9068",
+    "source_scene_id": "9068",
+    "split": "eval",
+    "video_url": "cases/eval_9068/rgb.mp4"
+  }
+}

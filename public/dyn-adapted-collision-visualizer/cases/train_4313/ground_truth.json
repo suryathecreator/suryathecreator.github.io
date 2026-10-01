@@ -1,0 +1,1864 @@
+{
+  "accepted_attempt": 0,
+  "interactions": [
+    {
+      "begins_at": 0,
+      "ends_at": 23,
+      "id": 2,
+      "inputs": [
+        1,
+        65535
+      ],
+      "outputs": [
+        1,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 0,
+      "ends_at": 23,
+      "id": 8,
+      "inputs": [
+        3,
+        65535
+      ],
+      "outputs": [
+        3,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 7,
+      "ends_at": 7,
+      "id": 7,
+      "inputs": [
+        2,
+        65535
+      ],
+      "outputs": [
+        2,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 8,
+      "ends_at": 8,
+      "id": 0,
+      "inputs": [
+        0,
+        65535
+      ],
+      "outputs": [
+        0,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 8,
+      "ends_at": 8,
+      "id": 3,
+      "inputs": [
+        2,
+        3
+      ],
+      "outputs": [
+        2,
+        3
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 9,
+      "ends_at": 9,
+      "id": 11,
+      "inputs": [
+        4,
+        65535
+      ],
+      "outputs": [
+        4,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 9,
+      "ends_at": 23,
+      "id": 1,
+      "inputs": [
+        0,
+        65535
+      ],
+      "outputs": [
+        0,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 10,
+      "ends_at": 10,
+      "id": 4,
+      "inputs": [
+        2,
+        65535
+      ],
+      "outputs": [
+        2,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 12,
+      "ends_at": 12,
+      "id": 9,
+      "inputs": [
+        4,
+        65535
+      ],
+      "outputs": [
+        4,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 13,
+      "ends_at": 13,
+      "id": 5,
+      "inputs": [
+        2,
+        65535
+      ],
+      "outputs": [
+        2,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 13,
+      "ends_at": 23,
+      "id": 10,
+      "inputs": [
+        4,
+        65535
+      ],
+      "outputs": [
+        4,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 14,
+      "ends_at": 23,
+      "id": 6,
+      "inputs": [
+        2,
+        65535
+      ],
+      "outputs": [
+        2,
+        65535
+      ],
+      "type": "contact"
+    }
+  ],
+  "original_to_viewer_id": {
+    "0": 2,
+    "1": 0,
+    "2": 3,
+    "3": 1,
+    "4": 4
+  },
+  "raw_contact_episodes": [
+    {
+      "end_frame": 8,
+      "label": "collision",
+      "pair": [
+        0,
+        2
+      ],
+      "start_frame": 8
+    },
+    {
+      "end_frame": 7,
+      "label": "collision",
+      "pair": [
+        0,
+        65535
+      ],
+      "start_frame": 7
+    },
+    {
+      "end_frame": 10,
+      "label": "collision",
+      "pair": [
+        0,
+        65535
+      ],
+      "start_frame": 10
+    },
+    {
+      "end_frame": 13,
+      "label": "collision",
+      "pair": [
+        0,
+        65535
+      ],
+      "start_frame": 13
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        0,
+        65535
+      ],
+      "start_frame": 14
+    },
+    {
+      "end_frame": 8,
+      "label": "collision",
+      "pair": [
+        1,
+        65535
+      ],
+      "start_frame": 8
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        1,
+        65535
+      ],
+      "start_frame": 9
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        2,
+        65535
+      ],
+      "start_frame": 0
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        3,
+        65535
+      ],
+      "start_frame": 0
+    },
+    {
+      "end_frame": 9,
+      "label": "collision",
+      "pair": [
+        4,
+        65535
+      ],
+      "start_frame": 9
+    },
+    {
+      "end_frame": 12,
+      "label": "collision",
+      "pair": [
+        4,
+        65535
+      ],
+      "start_frame": 12
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        4,
+        65535
+      ],
+      "start_frame": 13
+    }
+  ],
+  "scene": {
+    "all_collision_pairs": 4,
+    "all_interaction_pairs": 6,
+    "ground_truth_url": "cases/train_4313/ground_truth.json",
+    "impact_score": 0,
+    "media_id": "4313",
+    "num_frames": 24,
+    "objects": [
+      {
+        "asset_id": "ASSORTED_VEGETABLE_SET",
+        "color": "#5ee2d6",
+        "object_id": 0,
+        "original_id": 1,
+        "semantic_type": "wooden toy vegetable cutting set",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.244140625,
+              0.099609375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.248046875,
+              0.138671875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.259765625,
+              0.189453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.275390625,
+              0.248046875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.287109375,
+              0.314453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.314453125,
+              0.384765625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.333984375,
+              0.462890625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.357421875,
+              0.537109375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.388671875,
+              0.587890625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.365234375,
+              0.626953125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.384765625,
+              0.626953125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.400390625,
+              0.626953125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.412109375,
+              0.634765625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.423828125,
+              0.646484375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.435546875,
+              0.650390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.443359375,
+              0.662109375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.451171875,
+              0.662109375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.458984375,
+              0.669921875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.458984375,
+              0.669921875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.462890625,
+              0.677734375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.458984375,
+              0.677734375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.458984375,
+              0.689453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.451171875,
+              0.669921875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.447265625,
+              0.666015625
+            ],
+            "visible": true
+          }
+        ]
+      },
+      {
+        "asset_id": "DINING_ROOM_CLASSIC_UJuxQ0hv5XU",
+        "color": "#ff8a65",
+        "object_id": 1,
+        "original_id": 3,
+        "semantic_type": "wooden dollhouse dining room set",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.623046875,
+              0.052734375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.615234375,
+              0.056640625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.615234375,
+              0.068359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.650390625,
+              0.052734375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.642578125,
+              0.068359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.638671875,
+              0.072265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.630859375,
+              0.076171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.626953125,
+              0.080078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.619140625,
+              0.083984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.623046875,
+              0.095703125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.619140625,
+              0.099609375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.615234375,
+              0.103515625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.611328125,
+              0.107421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.591796875,
+              0.103515625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.587890625,
+              0.107421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.599609375,
+              0.115234375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.591796875,
+              0.123046875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.587890625,
+              0.123046875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.583984375,
+              0.126953125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.580078125,
+              0.130859375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.576171875,
+              0.134765625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.572265625,
+              0.138671875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.568359375,
+              0.142578125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.564453125,
+              0.146484375
+            ],
+            "visible": true
+          }
+        ]
+      },
+      {
+        "asset_id": "Schleich_Therizinosaurus_ln9cruulPqc",
+        "color": "#bd91ff",
+        "object_id": 2,
+        "original_id": 0,
+        "semantic_type": "blue and orange plastic Therizinosaurus figurine",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.740234375,
+              0.021484375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.751953125,
+              0.033203125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.767578125,
+              0.060546875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.783203125,
+              0.123046875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.794921875,
+              0.205078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.818359375,
+              0.291015625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.806640625,
+              0.369140625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.857421875,
+              0.470703125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.853515625,
+              0.466796875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.892578125,
+              0.490234375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.908203125,
+              0.486328125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.943359375,
+              0.486328125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.958984375,
+              0.509765625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.970703125,
+              0.572265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.970703125,
+              0.576171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.974609375,
+              0.583984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.978515625,
+              0.583984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.982421875,
+              0.576171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.982421875,
+              0.583984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.982421875,
+              0.587890625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.982421875,
+              0.587890625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.978515625,
+              0.607421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.974609375,
+              0.607421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.978515625,
+              0.615234375
+            ],
+            "visible": true
+          }
+        ]
+      },
+      {
+        "asset_id": "Quercetin_500",
+        "color": "#ffd166",
+        "object_id": 3,
+        "original_id": 2,
+        "semantic_type": "white plastic supplement bottle",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.787109375,
+              0.720703125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.787109375,
+              0.724609375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.787109375,
+              0.677734375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.787109375,
+              0.673828125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.787109375,
+              0.673828125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.787109375,
+              0.693359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.787109375,
+              0.708984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.787109375,
+              0.716796875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.787109375,
+              0.724609375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.787109375,
+              0.728515625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.783203125,
+              0.650390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.783203125,
+              0.662109375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.783203125,
+              0.666015625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.783203125,
+              0.662109375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.787109375,
+              0.689453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.787109375,
+              0.681640625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.783203125,
+              0.626953125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.783203125,
+              0.626953125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.783203125,
+              0.623046875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.783203125,
+              0.623046875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.783203125,
+              0.619140625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.787109375,
+              0.638671875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.791015625,
+              0.654296875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.791015625,
+              0.654296875
+            ],
+            "visible": true
+          }
+        ]
+      },
+      {
+        "asset_id": "FISHING_GAME",
+        "color": "#76baff",
+        "object_id": 4,
+        "original_id": 4,
+        "semantic_type": "colorful fabric fishing game",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": false,
+            "point": [
+              -0.47491294145584106,
+              0.4434201121330261
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 1,
+            "in_frame": false,
+            "point": [
+              -0.36487841606140137,
+              0.3993421196937561
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 2,
+            "in_frame": false,
+            "point": [
+              -0.2656843066215515,
+              0.37480494379997253
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 3,
+            "in_frame": false,
+            "point": [
+              -0.1777738332748413,
+              0.3658239245414734
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 4,
+            "in_frame": false,
+            "point": [
+              -0.10076804459095001,
+              0.3688025176525116
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 5,
+            "in_frame": false,
+            "point": [
+              -0.03382596746087074,
+              0.3807016909122467
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.025390625,
+              0.400390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.068359375,
+              0.400390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.115234375,
+              0.435546875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.146484375,
+              0.447265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.173828125,
+              0.455078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.193359375,
+              0.466796875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.220703125,
+              0.466796875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.216796875,
+              0.470703125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.232421875,
+              0.466796875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.232421875,
+              0.470703125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.232421875,
+              0.470703125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.224609375,
+              0.474609375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.228515625,
+              0.474609375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.240234375,
+              0.474609375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.228515625,
+              0.478515625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.244140625,
+              0.478515625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.232421875,
+              0.482421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.240234375,
+              0.482421875
+            ],
+            "visible": true
+          }
+        ]
+      }
+    ],
+    "pairs": [
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 9,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 9,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 0 \u00b7 wooden toy vegetable cutting set \u2194 Ground",
+        "pair": [
+          0,
+          65535
+        ],
+        "pair_key": "0-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 1,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 1 \u00b7 wooden dollhouse dining room set \u2194 Ground",
+        "pair": [
+          1,
+          65535
+        ],
+        "pair_key": "1-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 0,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 9,
+              "type": "collision"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 9,
+              "type": "collision"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            }
+          ]
+        },
+        "label": "Object 2 \u00b7 blue and orange plastic Therizinosaurus figurine \u2194 Object 3 \u00b7 white plastic supplement bottle",
+        "pair": [
+          2,
+          3
+        ],
+        "pair_key": "2-3",
+        "pair_type": "object_object",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 1,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 6,
+              "ends_at": 14,
+              "type": "collision"
+            },
+            {
+              "begins_at": 15,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 7,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 10,
+              "type": "collision"
+            },
+            {
+              "begins_at": 13,
+              "ends_at": 13,
+              "type": "collision"
+            },
+            {
+              "begins_at": 14,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 10,
+              "type": "collision"
+            },
+            {
+              "begins_at": 13,
+              "ends_at": 13,
+              "type": "collision"
+            },
+            {
+              "begins_at": 14,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 6,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 6,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 2 \u00b7 blue and orange plastic Therizinosaurus figurine \u2194 Ground",
+        "pair": [
+          2,
+          65535
+        ],
+        "pair_key": "2-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 2,
+          "baseline_collision_anchors": 3,
+          "combined_relabelled_anchors": 2,
+          "gap_close_le_3_merged_gaps": 2,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 3 \u00b7 white plastic supplement bottle \u2194 Ground",
+        "pair": [
+          3,
+          65535
+        ],
+        "pair_key": "3-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 0,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 13,
+              "type": "collision"
+            },
+            {
+              "begins_at": 14,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 9,
+              "ends_at": 9,
+              "type": "collision"
+            },
+            {
+              "begins_at": 12,
+              "ends_at": 12,
+              "type": "collision"
+            },
+            {
+              "begins_at": 13,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 9,
+              "ends_at": 9,
+              "type": "collision"
+            },
+            {
+              "begins_at": 12,
+              "ends_at": 12,
+              "type": "collision"
+            },
+            {
+              "begins_at": 13,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 10,
+              "type": "collision"
+            },
+            {
+              "begins_at": 11,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 10,
+              "type": "collision"
+            },
+            {
+              "begins_at": 11,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 4 \u00b7 colorful fabric fishing game \u2194 Ground",
+        "pair": [
+          4,
+          65535
+        ],
+        "pair_key": "4-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 1,
+          "baseline_collision_anchors": 2,
+          "combined_relabelled_anchors": 1,
+          "gap_close_le_3_merged_gaps": 1,
+          "gap_close_merges": 0
+        }
+      }
+    ],
+    "raw_events_url": "cases/train_4313/events.json",
+    "raw_metadata_url": "cases/train_4313/metadata.json",
+    "sample_id": "dyn_adapted:train:4313",
+    "segmentation_url": "cases/train_4313/segmentation.mp4",
+    "selection_counts": {},
+    "selection_index": 8,
+    "selection_reasons": [
+      "train",
+      "random_sample"
+    ],
+    "source_example_id": "4313",
+    "source_scene_id": "4313",
+    "split": "train",
+    "video_url": "cases/train_4313/rgb.mp4"
+  }
+}

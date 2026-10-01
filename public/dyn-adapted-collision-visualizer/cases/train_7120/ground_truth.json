@@ -1,0 +1,2664 @@
+{
+  "accepted_attempt": 0,
+  "interactions": [
+    {
+      "begins_at": 0,
+      "ends_at": 3,
+      "id": 5,
+      "inputs": [
+        0,
+        2
+      ],
+      "outputs": [
+        0,
+        2
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 0,
+      "ends_at": 23,
+      "id": 13,
+      "inputs": [
+        1,
+        65535
+      ],
+      "outputs": [
+        1,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 2,
+      "ends_at": 2,
+      "id": 14,
+      "inputs": [
+        2,
+        3
+      ],
+      "outputs": [
+        2,
+        3
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 2,
+      "ends_at": 3,
+      "id": 16,
+      "inputs": [
+        2,
+        4
+      ],
+      "outputs": [
+        2,
+        4
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 4,
+      "ends_at": 4,
+      "id": 3,
+      "inputs": [
+        0,
+        1
+      ],
+      "outputs": [
+        0,
+        1
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 6,
+      "ends_at": 6,
+      "id": 10,
+      "inputs": [
+        0,
+        4
+      ],
+      "outputs": [
+        0,
+        4
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 6,
+      "ends_at": 7,
+      "id": 4,
+      "inputs": [
+        0,
+        1
+      ],
+      "outputs": [
+        0,
+        1
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 7,
+      "ends_at": 7,
+      "id": 15,
+      "inputs": [
+        2,
+        3
+      ],
+      "outputs": [
+        2,
+        3
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 7,
+      "ends_at": 7,
+      "id": 17,
+      "inputs": [
+        2,
+        4
+      ],
+      "outputs": [
+        2,
+        4
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 7,
+      "ends_at": 7,
+      "id": 24,
+      "inputs": [
+        3,
+        65535
+      ],
+      "outputs": [
+        3,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 7,
+      "ends_at": 7,
+      "id": 26,
+      "inputs": [
+        4,
+        65535
+      ],
+      "outputs": [
+        4,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 8,
+      "ends_at": 8,
+      "id": 11,
+      "inputs": [
+        0,
+        65535
+      ],
+      "outputs": [
+        0,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 8,
+      "ends_at": 8,
+      "id": 19,
+      "inputs": [
+        2,
+        65535
+      ],
+      "outputs": [
+        2,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 8,
+      "ends_at": 9,
+      "id": 18,
+      "inputs": [
+        2,
+        4
+      ],
+      "outputs": [
+        2,
+        4
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 8,
+      "ends_at": 23,
+      "id": 27,
+      "inputs": [
+        4,
+        65535
+      ],
+      "outputs": [
+        4,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 9,
+      "ends_at": 9,
+      "id": 25,
+      "inputs": [
+        3,
+        65535
+      ],
+      "outputs": [
+        3,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 9,
+      "ends_at": 23,
+      "id": 12,
+      "inputs": [
+        0,
+        65535
+      ],
+      "outputs": [
+        0,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 9,
+      "ends_at": 23,
+      "id": 20,
+      "inputs": [
+        2,
+        65535
+      ],
+      "outputs": [
+        2,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 10,
+      "ends_at": 10,
+      "id": 6,
+      "inputs": [
+        0,
+        4
+      ],
+      "outputs": [
+        0,
+        4
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 10,
+      "ends_at": 11,
+      "id": 0,
+      "inputs": [
+        0,
+        1
+      ],
+      "outputs": [
+        0,
+        1
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 10,
+      "ends_at": 12,
+      "id": 21,
+      "inputs": [
+        3,
+        65535
+      ],
+      "outputs": [
+        3,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 11,
+      "ends_at": 14,
+      "id": 7,
+      "inputs": [
+        0,
+        4
+      ],
+      "outputs": [
+        0,
+        4
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 13,
+      "ends_at": 13,
+      "id": 1,
+      "inputs": [
+        0,
+        1
+      ],
+      "outputs": [
+        0,
+        1
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 14,
+      "ends_at": 14,
+      "id": 22,
+      "inputs": [
+        3,
+        65535
+      ],
+      "outputs": [
+        3,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 14,
+      "ends_at": 15,
+      "id": 2,
+      "inputs": [
+        0,
+        1
+      ],
+      "outputs": [
+        0,
+        1
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 15,
+      "ends_at": 23,
+      "id": 23,
+      "inputs": [
+        3,
+        65535
+      ],
+      "outputs": [
+        3,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 16,
+      "ends_at": 16,
+      "id": 8,
+      "inputs": [
+        0,
+        4
+      ],
+      "outputs": [
+        0,
+        4
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 17,
+      "ends_at": 23,
+      "id": 9,
+      "inputs": [
+        0,
+        4
+      ],
+      "outputs": [
+        0,
+        4
+      ],
+      "type": "contact"
+    }
+  ],
+  "original_to_viewer_id": {
+    "0": 2,
+    "1": 1,
+    "2": 4,
+    "3": 3,
+    "4": 0
+  },
+  "raw_contact_episodes": [
+    {
+      "end_frame": 3,
+      "label": "collision",
+      "pair": [
+        0,
+        2
+      ],
+      "start_frame": 2
+    },
+    {
+      "end_frame": 7,
+      "label": "collision",
+      "pair": [
+        0,
+        2
+      ],
+      "start_frame": 7
+    },
+    {
+      "end_frame": 9,
+      "label": "persistent_contact",
+      "pair": [
+        0,
+        2
+      ],
+      "start_frame": 8
+    },
+    {
+      "end_frame": 2,
+      "label": "collision",
+      "pair": [
+        0,
+        3
+      ],
+      "start_frame": 2
+    },
+    {
+      "end_frame": 7,
+      "label": "collision",
+      "pair": [
+        0,
+        3
+      ],
+      "start_frame": 7
+    },
+    {
+      "end_frame": 3,
+      "label": "persistent_contact",
+      "pair": [
+        0,
+        4
+      ],
+      "start_frame": 0
+    },
+    {
+      "end_frame": 8,
+      "label": "collision",
+      "pair": [
+        0,
+        65535
+      ],
+      "start_frame": 8
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        0,
+        65535
+      ],
+      "start_frame": 9
+    },
+    {
+      "end_frame": 4,
+      "label": "collision",
+      "pair": [
+        1,
+        4
+      ],
+      "start_frame": 4
+    },
+    {
+      "end_frame": 7,
+      "label": "collision",
+      "pair": [
+        1,
+        4
+      ],
+      "start_frame": 6
+    },
+    {
+      "end_frame": 11,
+      "label": "collision",
+      "pair": [
+        1,
+        4
+      ],
+      "start_frame": 10
+    },
+    {
+      "end_frame": 13,
+      "label": "collision",
+      "pair": [
+        1,
+        4
+      ],
+      "start_frame": 13
+    },
+    {
+      "end_frame": 15,
+      "label": "persistent_contact",
+      "pair": [
+        1,
+        4
+      ],
+      "start_frame": 14
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        1,
+        65535
+      ],
+      "start_frame": 0
+    },
+    {
+      "end_frame": 6,
+      "label": "collision",
+      "pair": [
+        2,
+        4
+      ],
+      "start_frame": 6
+    },
+    {
+      "end_frame": 10,
+      "label": "collision",
+      "pair": [
+        2,
+        4
+      ],
+      "start_frame": 10
+    },
+    {
+      "end_frame": 14,
+      "label": "persistent_contact",
+      "pair": [
+        2,
+        4
+      ],
+      "start_frame": 11
+    },
+    {
+      "end_frame": 16,
+      "label": "collision",
+      "pair": [
+        2,
+        4
+      ],
+      "start_frame": 16
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        2,
+        4
+      ],
+      "start_frame": 17
+    },
+    {
+      "end_frame": 7,
+      "label": "collision",
+      "pair": [
+        2,
+        65535
+      ],
+      "start_frame": 7
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        2,
+        65535
+      ],
+      "start_frame": 8
+    },
+    {
+      "end_frame": 7,
+      "label": "collision",
+      "pair": [
+        3,
+        65535
+      ],
+      "start_frame": 7
+    },
+    {
+      "end_frame": 9,
+      "label": "collision",
+      "pair": [
+        3,
+        65535
+      ],
+      "start_frame": 9
+    },
+    {
+      "end_frame": 12,
+      "label": "persistent_contact",
+      "pair": [
+        3,
+        65535
+      ],
+      "start_frame": 10
+    },
+    {
+      "end_frame": 14,
+      "label": "collision",
+      "pair": [
+        3,
+        65535
+      ],
+      "start_frame": 14
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        3,
+        65535
+      ],
+      "start_frame": 15
+    },
+    {
+      "end_frame": 8,
+      "label": "collision",
+      "pair": [
+        4,
+        65535
+      ],
+      "start_frame": 8
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        4,
+        65535
+      ],
+      "start_frame": 9
+    }
+  ],
+  "scene": {
+    "all_collision_pairs": 8,
+    "all_interaction_pairs": 10,
+    "ground_truth_url": "cases/train_7120/ground_truth.json",
+    "impact_score": 0,
+    "media_id": "7120",
+    "num_frames": 24,
+    "objects": [
+      {
+        "asset_id": "Ghost_6_Color_MdngtDenmPomBrtePnkSlvBlk_Size_50",
+        "color": "#5ee2d6",
+        "object_id": 0,
+        "original_id": 4,
+        "semantic_type": "dark grey and pink running shoe",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.146484375,
+              0.333984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.169921875,
+              0.353515625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.220703125,
+              0.380859375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.251953125,
+              0.412109375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.271484375,
+              0.439453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.318359375,
+              0.462890625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.306640625,
+              0.474609375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.318359375,
+              0.509765625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.353515625,
+              0.595703125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.326171875,
+              0.544921875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.318359375,
+              0.599609375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.294921875,
+              0.603515625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.279296875,
+              0.580078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.263671875,
+              0.560546875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.251953125,
+              0.560546875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.240234375,
+              0.556640625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.232421875,
+              0.556640625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.228515625,
+              0.564453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.224609375,
+              0.568359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.220703125,
+              0.564453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.216796875,
+              0.568359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.216796875,
+              0.568359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.216796875,
+              0.568359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.216796875,
+              0.568359375
+            ],
+            "visible": true
+          }
+        ]
+      },
+      {
+        "asset_id": "Perricone_MD_No_Bronzer_Bronzer",
+        "color": "#ff8a65",
+        "object_id": 1,
+        "original_id": 1,
+        "semantic_type": "beige and brown cardboard skincare box",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.166015625,
+              0.498046875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.146484375,
+              0.505859375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.107421875,
+              0.525390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.119140625,
+              0.521484375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.123046875,
+              0.517578125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.146484375,
+              0.505859375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.134765625,
+              0.513671875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.130859375,
+              0.525390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.138671875,
+              0.537109375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.142578125,
+              0.544921875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.134765625,
+              0.572265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.134765625,
+              0.591796875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.142578125,
+              0.595703125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.130859375,
+              0.568359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.111328125,
+              0.576171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.095703125,
+              0.537109375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.095703125,
+              0.478515625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.087890625,
+              0.470703125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.083984375,
+              0.462890625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.080078125,
+              0.466796875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.080078125,
+              0.474609375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.076171875,
+              0.478515625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.072265625,
+              0.478515625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.068359375,
+              0.478515625
+            ],
+            "visible": true
+          }
+        ]
+      },
+      {
+        "asset_id": "Crayola_Washable_Sidewalk_Chalk_16_pack_wDZECiw7J6s",
+        "color": "#bd91ff",
+        "object_id": 2,
+        "original_id": 0,
+        "semantic_type": "green cardboard box of sidewalk chalk",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.322265625,
+              0.236328125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.310546875,
+              0.208984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.318359375,
+              0.169921875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.298828125,
+              0.173828125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.318359375,
+              0.154296875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.314453125,
+              0.169921875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.306640625,
+              0.193359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.283203125,
+              0.236328125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.267578125,
+              0.248046875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.259765625,
+              0.244140625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.251953125,
+              0.232421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.255859375,
+              0.224609375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.263671875,
+              0.201171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.251953125,
+              0.201171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.267578125,
+              0.169921875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.251953125,
+              0.185546875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.248046875,
+              0.189453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.251953125,
+              0.181640625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.255859375,
+              0.177734375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.251953125,
+              0.189453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.259765625,
+              0.185546875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.271484375,
+              0.169921875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.279296875,
+              0.169921875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.287109375,
+              0.166015625
+            ],
+            "visible": true
+          }
+        ]
+      },
+      {
+        "asset_id": "Down_To_Earth_Orchid_Pot_Ceramic_Lime",
+        "color": "#ffd166",
+        "object_id": 3,
+        "original_id": 3,
+        "semantic_type": "lime green ceramic pot with saucer",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.400390625,
+              0.044921875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.263671875,
+              0.033203125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.427734375,
+              0.025390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.244140625,
+              0.033203125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.201171875,
+              0.072265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.173828125,
+              0.111328125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.146484375,
+              0.134765625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.115234375,
+              0.169921875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.087890625,
+              0.181640625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.107421875,
+              0.142578125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.095703125,
+              0.146484375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.083984375,
+              0.142578125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.076171875,
+              0.150390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.060546875,
+              0.130859375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.044921875,
+              0.166015625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.041015625,
+              0.158203125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.029296875,
+              0.162109375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.021484375,
+              0.068359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.021484375,
+              0.087890625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.005859375,
+              0.072265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": false,
+            "point": [
+              -0.17325006425380707,
+              0.11900874227285385
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 21,
+            "in_frame": false,
+            "point": [
+              -0.19754479825496674,
+              0.13359950482845306
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 22,
+            "in_frame": false,
+            "point": [
+              -0.22415688633918762,
+              0.1488317847251892
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 23,
+            "in_frame": false,
+            "point": [
+              -0.2579703629016876,
+              0.1595146656036377
+            ],
+            "visible": false
+          }
+        ]
+      },
+      {
+        "asset_id": "W_Lou_z0dkC78niiZ",
+        "color": "#76baff",
+        "object_id": 4,
+        "original_id": 2,
+        "semantic_type": "brown leather boot",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.693359375,
+              0.396484375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.626953125,
+              0.373046875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.564453125,
+              0.357421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.544921875,
+              0.427734375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.498046875,
+              0.447265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.439453125,
+              0.357421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.419921875,
+              0.373046875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.412109375,
+              0.400390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.412109375,
+              0.427734375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.404296875,
+              0.431640625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.400390625,
+              0.435546875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.396484375,
+              0.439453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.392578125,
+              0.443359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.388671875,
+              0.439453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.384765625,
+              0.443359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.384765625,
+              0.439453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.380859375,
+              0.443359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.345703125,
+              0.482421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.384765625,
+              0.443359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.384765625,
+              0.443359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.341796875,
+              0.490234375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.341796875,
+              0.490234375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.341796875,
+              0.490234375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.341796875,
+              0.490234375
+            ],
+            "visible": true
+          }
+        ]
+      }
+    ],
+    "pairs": [
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 3,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 14,
+              "type": "collision"
+            },
+            {
+              "begins_at": 15,
+              "ends_at": 15,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 4,
+              "ends_at": 4,
+              "type": "collision"
+            },
+            {
+              "begins_at": 6,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 11,
+              "type": "collision"
+            },
+            {
+              "begins_at": 13,
+              "ends_at": 13,
+              "type": "collision"
+            },
+            {
+              "begins_at": 14,
+              "ends_at": 15,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 4,
+              "ends_at": 4,
+              "type": "collision"
+            },
+            {
+              "begins_at": 5,
+              "ends_at": 7,
+              "type": "contact"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 11,
+              "type": "collision"
+            },
+            {
+              "begins_at": 12,
+              "ends_at": 15,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 3,
+              "ends_at": 5,
+              "type": "collision"
+            },
+            {
+              "begins_at": 6,
+              "ends_at": 7,
+              "type": "contact"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 11,
+              "type": "collision"
+            },
+            {
+              "begins_at": 12,
+              "ends_at": 15,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 3,
+              "ends_at": 5,
+              "type": "collision"
+            },
+            {
+              "begins_at": 6,
+              "ends_at": 15,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 0 \u00b7 dark grey and pink running shoe \u2194 Object 1 \u00b7 beige and brown cardboard skincare box",
+        "pair": [
+          0,
+          1
+        ],
+        "pair_key": "0-1",
+        "pair_type": "object_object",
+        "stats": {
+          "anchor_expand_joined_anchors": 2,
+          "baseline_collision_anchors": 4,
+          "combined_relabelled_anchors": 2,
+          "gap_close_le_3_merged_gaps": 3,
+          "gap_close_merges": 2
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 3,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 0,
+              "ends_at": 3,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 3,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 3,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 3,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 0 \u00b7 dark grey and pink running shoe \u2194 Object 2 \u00b7 green cardboard box of sidewalk chalk",
+        "pair": [
+          0,
+          2
+        ],
+        "pair_key": "0-2",
+        "pair_type": "object_object",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 0,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 5,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 11,
+              "type": "collision"
+            },
+            {
+              "begins_at": 12,
+              "ends_at": 14,
+              "type": "contact"
+            },
+            {
+              "begins_at": 15,
+              "ends_at": 17,
+              "type": "collision"
+            },
+            {
+              "begins_at": 18,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 6,
+              "ends_at": 6,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 10,
+              "type": "collision"
+            },
+            {
+              "begins_at": 11,
+              "ends_at": 14,
+              "type": "contact"
+            },
+            {
+              "begins_at": 16,
+              "ends_at": 16,
+              "type": "collision"
+            },
+            {
+              "begins_at": 17,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 6,
+              "ends_at": 6,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 10,
+              "type": "collision"
+            },
+            {
+              "begins_at": 11,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 5,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 11,
+              "type": "collision"
+            },
+            {
+              "begins_at": 12,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 5,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 8,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 0 \u00b7 dark grey and pink running shoe \u2194 Object 4 \u00b7 brown leather boot",
+        "pair": [
+          0,
+          4
+        ],
+        "pair_key": "0-4",
+        "pair_type": "object_object",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 3,
+          "combined_relabelled_anchors": 1,
+          "gap_close_le_3_merged_gaps": 2,
+          "gap_close_merges": 1
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 9,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 9,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 0 \u00b7 dark grey and pink running shoe \u2194 Ground",
+        "pair": [
+          0,
+          65535
+        ],
+        "pair_key": "0-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 1,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 1 \u00b7 beige and brown cardboard skincare box \u2194 Ground",
+        "pair": [
+          1,
+          65535
+        ],
+        "pair_key": "1-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 0,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 1,
+              "ends_at": 3,
+              "type": "collision"
+            },
+            {
+              "begins_at": 6,
+              "ends_at": 8,
+              "type": "collision"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 2,
+              "ends_at": 2,
+              "type": "collision"
+            },
+            {
+              "begins_at": 7,
+              "ends_at": 7,
+              "type": "collision"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 2,
+              "ends_at": 2,
+              "type": "collision"
+            },
+            {
+              "begins_at": 7,
+              "ends_at": 7,
+              "type": "collision"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 1,
+              "ends_at": 3,
+              "type": "collision"
+            },
+            {
+              "begins_at": 6,
+              "ends_at": 8,
+              "type": "collision"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 2,
+              "ends_at": 2,
+              "type": "collision"
+            },
+            {
+              "begins_at": 7,
+              "ends_at": 7,
+              "type": "collision"
+            }
+          ]
+        },
+        "label": "Object 2 \u00b7 green cardboard box of sidewalk chalk \u2194 Object 3 \u00b7 lime green ceramic pot with saucer",
+        "pair": [
+          2,
+          3
+        ],
+        "pair_key": "2-3",
+        "pair_type": "object_object",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 2,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 1,
+              "ends_at": 3,
+              "type": "collision"
+            },
+            {
+              "begins_at": 6,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 9,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 2,
+              "ends_at": 3,
+              "type": "collision"
+            },
+            {
+              "begins_at": 7,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 8,
+              "ends_at": 9,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 2,
+              "ends_at": 3,
+              "type": "collision"
+            },
+            {
+              "begins_at": 7,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 8,
+              "ends_at": 9,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 1,
+              "ends_at": 3,
+              "type": "collision"
+            },
+            {
+              "begins_at": 6,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 9,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 1,
+              "ends_at": 3,
+              "type": "collision"
+            },
+            {
+              "begins_at": 4,
+              "ends_at": 9,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 2 \u00b7 green cardboard box of sidewalk chalk \u2194 Object 4 \u00b7 brown leather boot",
+        "pair": [
+          2,
+          4
+        ],
+        "pair_key": "2-4",
+        "pair_type": "object_object",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 2,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 1,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 9,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 9,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 2 \u00b7 green cardboard box of sidewalk chalk \u2194 Ground",
+        "pair": [
+          2,
+          65535
+        ],
+        "pair_key": "2-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 1,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 6,
+              "ends_at": 10,
+              "type": "collision"
+            },
+            {
+              "begins_at": 11,
+              "ends_at": 12,
+              "type": "contact"
+            },
+            {
+              "begins_at": 13,
+              "ends_at": 15,
+              "type": "collision"
+            },
+            {
+              "begins_at": 16,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 7,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 9,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 12,
+              "type": "contact"
+            },
+            {
+              "begins_at": 14,
+              "ends_at": 14,
+              "type": "collision"
+            },
+            {
+              "begins_at": 15,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 8,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 6,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 6,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 3 \u00b7 lime green ceramic pot with saucer \u2194 Ground",
+        "pair": [
+          3,
+          65535
+        ],
+        "pair_key": "3-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 1,
+          "baseline_collision_anchors": 3,
+          "combined_relabelled_anchors": 2,
+          "gap_close_le_3_merged_gaps": 2,
+          "gap_close_merges": 2
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 6,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 7,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 8,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 8,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 6,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 7,
+              "type": "collision"
+            },
+            {
+              "begins_at": 8,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 4 \u00b7 brown leather boot \u2194 Ground",
+        "pair": [
+          4,
+          65535
+        ],
+        "pair_key": "4-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 1,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      }
+    ],
+    "raw_events_url": "cases/train_7120/events.json",
+    "raw_metadata_url": "cases/train_7120/metadata.json",
+    "sample_id": "dyn_adapted:train:7120",
+    "segmentation_url": "cases/train_7120/segmentation.mp4",
+    "selection_counts": {},
+    "selection_index": 11,
+    "selection_reasons": [
+      "train",
+      "random_sample"
+    ],
+    "source_example_id": "7120",
+    "source_scene_id": "7120",
+    "split": "train",
+    "video_url": "cases/train_7120/rgb.mp4"
+  }
+}

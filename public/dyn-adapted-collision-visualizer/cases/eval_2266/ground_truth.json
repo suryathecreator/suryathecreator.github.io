@@ -1,0 +1,1565 @@
+{
+  "accepted_attempt": 0,
+  "interactions": [
+    {
+      "begins_at": 0,
+      "ends_at": 23,
+      "id": 2,
+      "inputs": [
+        1,
+        65535
+      ],
+      "outputs": [
+        1,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 5,
+      "ends_at": 5,
+      "id": 3,
+      "inputs": [
+        2,
+        3
+      ],
+      "outputs": [
+        2,
+        3
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 8,
+      "ends_at": 8,
+      "id": 4,
+      "inputs": [
+        2,
+        65535
+      ],
+      "outputs": [
+        2,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 9,
+      "ends_at": 9,
+      "id": 9,
+      "inputs": [
+        3,
+        65535
+      ],
+      "outputs": [
+        3,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 9,
+      "ends_at": 23,
+      "id": 5,
+      "inputs": [
+        2,
+        65535
+      ],
+      "outputs": [
+        2,
+        65535
+      ],
+      "type": "contact"
+    },
+    {
+      "begins_at": 10,
+      "ends_at": 10,
+      "id": 1,
+      "inputs": [
+        0,
+        65535
+      ],
+      "outputs": [
+        0,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 11,
+      "ends_at": 11,
+      "id": 6,
+      "inputs": [
+        3,
+        65535
+      ],
+      "outputs": [
+        3,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 12,
+      "ends_at": 13,
+      "id": 0,
+      "inputs": [
+        0,
+        3
+      ],
+      "outputs": [
+        0,
+        3
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 13,
+      "ends_at": 13,
+      "id": 7,
+      "inputs": [
+        3,
+        65535
+      ],
+      "outputs": [
+        3,
+        65535
+      ],
+      "type": "collision"
+    },
+    {
+      "begins_at": 14,
+      "ends_at": 23,
+      "id": 8,
+      "inputs": [
+        3,
+        65535
+      ],
+      "outputs": [
+        3,
+        65535
+      ],
+      "type": "contact"
+    }
+  ],
+  "original_to_viewer_id": {
+    "0": 2,
+    "1": 3,
+    "2": 0,
+    "3": 1
+  },
+  "raw_contact_episodes": [
+    {
+      "end_frame": 5,
+      "label": "collision",
+      "pair": [
+        0,
+        1
+      ],
+      "start_frame": 5
+    },
+    {
+      "end_frame": 8,
+      "label": "collision",
+      "pair": [
+        0,
+        65535
+      ],
+      "start_frame": 8
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        0,
+        65535
+      ],
+      "start_frame": 9
+    },
+    {
+      "end_frame": 13,
+      "label": "collision",
+      "pair": [
+        1,
+        2
+      ],
+      "start_frame": 12
+    },
+    {
+      "end_frame": 9,
+      "label": "collision",
+      "pair": [
+        1,
+        65535
+      ],
+      "start_frame": 9
+    },
+    {
+      "end_frame": 11,
+      "label": "collision",
+      "pair": [
+        1,
+        65535
+      ],
+      "start_frame": 11
+    },
+    {
+      "end_frame": 13,
+      "label": "collision",
+      "pair": [
+        1,
+        65535
+      ],
+      "start_frame": 13
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        1,
+        65535
+      ],
+      "start_frame": 14
+    },
+    {
+      "end_frame": 10,
+      "label": "collision",
+      "pair": [
+        2,
+        65535
+      ],
+      "start_frame": 10
+    },
+    {
+      "end_frame": 12,
+      "label": "collision",
+      "pair": [
+        2,
+        65535
+      ],
+      "start_frame": 12
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        2,
+        65535
+      ],
+      "start_frame": 13
+    },
+    {
+      "end_frame": 23,
+      "label": "persistent_contact",
+      "pair": [
+        3,
+        65535
+      ],
+      "start_frame": 0
+    }
+  ],
+  "scene": {
+    "all_collision_pairs": 5,
+    "all_interaction_pairs": 6,
+    "ground_truth_url": "cases/eval_2266/ground_truth.json",
+    "impact_score": 0,
+    "media_id": "2266",
+    "num_frames": 24,
+    "objects": [
+      {
+        "asset_id": "SHAPE_SORTER",
+        "color": "#5ee2d6",
+        "object_id": 0,
+        "original_id": 2,
+        "semantic_type": "multicolor wooden shape sorter",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.455078125,
+              0.033203125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.380859375,
+              0.044921875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.310546875,
+              0.072265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.251953125,
+              0.111328125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.197265625,
+              0.150390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.146484375,
+              0.205078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.099609375,
+              0.255859375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.083984375,
+              0.337890625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.037109375,
+              0.388671875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.033203125,
+              0.466796875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.005859375,
+              0.525390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.009765625,
+              0.529296875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": false,
+            "point": [
+              -0.07344301044940948,
+              0.5591798424720764
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 13,
+            "in_frame": false,
+            "point": [
+              -0.09617438167333603,
+              0.56059730052948
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 14,
+            "in_frame": false,
+            "point": [
+              -0.11160696297883987,
+              0.5542702674865723
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 15,
+            "in_frame": false,
+            "point": [
+              -0.12384504824876785,
+              0.5486477613449097
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 16,
+            "in_frame": false,
+            "point": [
+              -0.13307878375053406,
+              0.543668270111084
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 17,
+            "in_frame": false,
+            "point": [
+              -0.13948579132556915,
+              0.5392897725105286
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 18,
+            "in_frame": false,
+            "point": [
+              -0.14322976768016815,
+              0.5354795455932617
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 19,
+            "in_frame": false,
+            "point": [
+              -0.1444498747587204,
+              0.5321869850158691
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 20,
+            "in_frame": false,
+            "point": [
+              -0.14328007400035858,
+              0.5293898582458496
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 21,
+            "in_frame": false,
+            "point": [
+              -0.13983213901519775,
+              0.5270525813102722
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 22,
+            "in_frame": false,
+            "point": [
+              -0.1346265971660614,
+              0.5250797867774963
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 23,
+            "in_frame": false,
+            "point": [
+              -0.12929004430770874,
+              0.5232316255569458
+            ],
+            "visible": false
+          }
+        ]
+      },
+      {
+        "asset_id": "Schleich_Allosaurus",
+        "color": "#ff8a65",
+        "object_id": 1,
+        "original_id": 3,
+        "semantic_type": "brown plastic dinosaur figurine",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.501953125,
+              0.443359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.509765625,
+              0.443359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.517578125,
+              0.443359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.505859375,
+              0.447265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.505859375,
+              0.447265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.509765625,
+              0.447265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.505859375,
+              0.451171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.521484375,
+              0.447265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.509765625,
+              0.451171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.517578125,
+              0.451171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.509765625,
+              0.455078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.513671875,
+              0.455078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.517578125,
+              0.458984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.509765625,
+              0.458984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.525390625,
+              0.455078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.525390625,
+              0.455078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.525390625,
+              0.451171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.521484375,
+              0.458984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.513671875,
+              0.462890625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.525390625,
+              0.458984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.525390625,
+              0.458984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.521484375,
+              0.462890625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.513671875,
+              0.466796875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.525390625,
+              0.462890625
+            ],
+            "visible": true
+          }
+        ]
+      },
+      {
+        "asset_id": "Perricone_MD_Health_Weight_Management_Supplements",
+        "color": "#bd91ff",
+        "object_id": 2,
+        "original_id": 0,
+        "semantic_type": "white cardboard weight management supplement box",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.529296875,
+              0.064453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.494140625,
+              0.091796875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.455078125,
+              0.107421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.447265625,
+              0.150390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.443359375,
+              0.208984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.416015625,
+              0.271484375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.373046875,
+              0.326171875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.455078125,
+              0.365234375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.408203125,
+              0.447265625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.357421875,
+              0.439453125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.353515625,
+              0.443359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.365234375,
+              0.455078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.349609375,
+              0.458984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.349609375,
+              0.458984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.345703125,
+              0.462890625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.353515625,
+              0.458984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": true,
+            "point": [
+              0.337890625,
+              0.462890625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 17,
+            "in_frame": true,
+            "point": [
+              0.365234375,
+              0.455078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 18,
+            "in_frame": true,
+            "point": [
+              0.376953125,
+              0.455078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 19,
+            "in_frame": true,
+            "point": [
+              0.353515625,
+              0.458984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 20,
+            "in_frame": true,
+            "point": [
+              0.361328125,
+              0.455078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 21,
+            "in_frame": true,
+            "point": [
+              0.369140625,
+              0.455078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 22,
+            "in_frame": true,
+            "point": [
+              0.345703125,
+              0.458984375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 23,
+            "in_frame": true,
+            "point": [
+              0.353515625,
+              0.455078125
+            ],
+            "visible": true
+          }
+        ]
+      },
+      {
+        "asset_id": "PureConnect_2_Color_BlckBrllntBluNghtlfeAnthrct_Size_70",
+        "color": "#ffd166",
+        "object_id": 3,
+        "original_id": 1,
+        "semantic_type": "black, blue, and green running shoe",
+        "track": [
+          {
+            "frame_index": 0,
+            "in_frame": true,
+            "point": [
+              0.935546875,
+              0.021484375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 1,
+            "in_frame": true,
+            "point": [
+              0.931640625,
+              0.052734375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 2,
+            "in_frame": true,
+            "point": [
+              0.818359375,
+              0.068359375
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 3,
+            "in_frame": true,
+            "point": [
+              0.720703125,
+              0.107421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 4,
+            "in_frame": true,
+            "point": [
+              0.611328125,
+              0.150390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 5,
+            "in_frame": true,
+            "point": [
+              0.498046875,
+              0.173828125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 6,
+            "in_frame": true,
+            "point": [
+              0.400390625,
+              0.205078125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 7,
+            "in_frame": true,
+            "point": [
+              0.353515625,
+              0.291015625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 8,
+            "in_frame": true,
+            "point": [
+              0.283203125,
+              0.357421875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 9,
+            "in_frame": true,
+            "point": [
+              0.197265625,
+              0.404296875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 10,
+            "in_frame": true,
+            "point": [
+              0.169921875,
+              0.533203125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 11,
+            "in_frame": true,
+            "point": [
+              0.056640625,
+              0.501953125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 12,
+            "in_frame": true,
+            "point": [
+              0.072265625,
+              0.525390625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 13,
+            "in_frame": true,
+            "point": [
+              0.041015625,
+              0.509765625
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 14,
+            "in_frame": true,
+            "point": [
+              0.025390625,
+              0.486328125
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 15,
+            "in_frame": true,
+            "point": [
+              0.013671875,
+              0.466796875
+            ],
+            "visible": true
+          },
+          {
+            "frame_index": 16,
+            "in_frame": false,
+            "point": [
+              -0.18175317347049713,
+              0.5090519189834595
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 17,
+            "in_frame": false,
+            "point": [
+              -0.221147358417511,
+              0.5071348547935486
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 18,
+            "in_frame": false,
+            "point": [
+              -0.25698569416999817,
+              0.5078373551368713
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 19,
+            "in_frame": false,
+            "point": [
+              -0.2897951602935791,
+              0.5134114623069763
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 20,
+            "in_frame": false,
+            "point": [
+              -0.3198382258415222,
+              0.5251556038856506
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 21,
+            "in_frame": false,
+            "point": [
+              -0.3463437259197235,
+              0.5403991341590881
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 22,
+            "in_frame": false,
+            "point": [
+              -0.3655320703983307,
+              0.5483375191688538
+            ],
+            "visible": false
+          },
+          {
+            "frame_index": 23,
+            "in_frame": false,
+            "point": [
+              -0.3795255422592163,
+              0.5552936792373657
+            ],
+            "visible": false
+          }
+        ]
+      }
+    ],
+    "pairs": [
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 11,
+              "ends_at": 13,
+              "type": "collision"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 12,
+              "ends_at": 13,
+              "type": "collision"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 12,
+              "ends_at": 13,
+              "type": "collision"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 11,
+              "ends_at": 13,
+              "type": "collision"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 12,
+              "ends_at": 13,
+              "type": "collision"
+            }
+          ]
+        },
+        "label": "Object 0 \u00b7 multicolor wooden shape sorter \u2194 Object 3 \u00b7 black, blue, and green running shoe",
+        "pair": [
+          0,
+          3
+        ],
+        "pair_key": "0-3",
+        "pair_type": "object_object",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 1,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 9,
+              "ends_at": 11,
+              "type": "collision"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 10,
+              "ends_at": 10,
+              "type": "collision"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 10,
+              "ends_at": 10,
+              "type": "collision"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 9,
+              "ends_at": 11,
+              "type": "collision"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 10,
+              "ends_at": 10,
+              "type": "collision"
+            }
+          ]
+        },
+        "label": "Object 0 \u00b7 multicolor wooden shape sorter \u2194 Ground",
+        "pair": [
+          0,
+          65535
+        ],
+        "pair_key": "0-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 1,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 0,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 1 \u00b7 brown plastic dinosaur figurine \u2194 Ground",
+        "pair": [
+          1,
+          65535
+        ],
+        "pair_key": "1-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 0,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 4,
+              "ends_at": 6,
+              "type": "collision"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 5,
+              "ends_at": 5,
+              "type": "collision"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 5,
+              "ends_at": 5,
+              "type": "collision"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 4,
+              "ends_at": 6,
+              "type": "collision"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 5,
+              "ends_at": 5,
+              "type": "collision"
+            }
+          ]
+        },
+        "label": "Object 2 \u00b7 white cardboard weight management supplement box \u2194 Object 3 \u00b7 black, blue, and green running shoe",
+        "pair": [
+          2,
+          3
+        ],
+        "pair_key": "2-3",
+        "pair_type": "object_object",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 1,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 9,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 7,
+              "ends_at": 9,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 8,
+              "type": "collision"
+            },
+            {
+              "begins_at": 9,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 2 \u00b7 white cardboard weight management supplement box \u2194 Ground",
+        "pair": [
+          2,
+          65535
+        ],
+        "pair_key": "2-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 0,
+          "baseline_collision_anchors": 1,
+          "combined_relabelled_anchors": 0,
+          "gap_close_le_3_merged_gaps": 0,
+          "gap_close_merges": 0
+        }
+      },
+      {
+        "arms": {
+          "anchor_expand_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 14,
+              "type": "collision"
+            },
+            {
+              "begins_at": 15,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "baseline": [
+            {
+              "begins_at": 9,
+              "ends_at": 9,
+              "type": "collision"
+            },
+            {
+              "begins_at": 11,
+              "ends_at": 11,
+              "type": "collision"
+            },
+            {
+              "begins_at": 13,
+              "ends_at": 13,
+              "type": "collision"
+            },
+            {
+              "begins_at": 14,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_1": [
+            {
+              "begins_at": 9,
+              "ends_at": 9,
+              "type": "collision"
+            },
+            {
+              "begins_at": 10,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_expand_relabel_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 10,
+              "type": "collision"
+            },
+            {
+              "begins_at": 11,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ],
+          "gap_close_le_3_relabel_1": [
+            {
+              "begins_at": 8,
+              "ends_at": 10,
+              "type": "collision"
+            },
+            {
+              "begins_at": 11,
+              "ends_at": 23,
+              "type": "contact"
+            }
+          ]
+        },
+        "label": "Object 3 \u00b7 black, blue, and green running shoe \u2194 Ground",
+        "pair": [
+          3,
+          65535
+        ],
+        "pair_key": "3-65535",
+        "pair_type": "object_ground",
+        "stats": {
+          "anchor_expand_joined_anchors": 2,
+          "baseline_collision_anchors": 3,
+          "combined_relabelled_anchors": 2,
+          "gap_close_le_3_merged_gaps": 2,
+          "gap_close_merges": 2
+        }
+      }
+    ],
+    "raw_events_url": "cases/eval_2266/events.json",
+    "raw_metadata_url": "cases/eval_2266/metadata.json",
+    "sample_id": "dyn_adapted:eval:2266",
+    "segmentation_url": "cases/eval_2266/segmentation.mp4",
+    "selection_counts": {},
+    "selection_index": 14,
+    "selection_reasons": [
+      "eval",
+      "random_sample"
+    ],
+    "source_example_id": "2266",
+    "source_scene_id": "2266",
+    "split": "eval",
+    "video_url": "cases/eval_2266/rgb.mp4"
+  }
+}

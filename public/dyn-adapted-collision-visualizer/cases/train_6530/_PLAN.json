@@ -1,0 +1,18 @@
+{
+  "collision_tuning": {
+    "dynamic_centering_strength": 1.25,
+    "dynamic_spawn_xy_scale": 1.0,
+    "dynamic_velocity_scale": 1.0,
+    "static_spawn_xy_scale": 1.0
+  },
+  "dataset_index": 6530,
+  "dataset_name": "movi_e_dyn_count",
+  "dynamic_count": 3,
+  "object_count": 5,
+  "plan_sha256": "6330fa922550e53d2e111d660300dba9eac2d3a51431085b953326e45df0b14d",
+  "planned_seed": 766530,
+  "render_attempt": 0,
+  "render_seed": 766530,
+  "split": "train",
+  "static_count": 2
+}
